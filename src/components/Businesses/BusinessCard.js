@@ -10,10 +10,10 @@ export default function BusinessCard(props) {
       onClick={() => {
         openBusiness();
       }}
-      className="cursor-pointer ml-6 mt-10 card googleBtn">
+      className="cursor-pointer ml-6 mt-10 h-auto googleBtn">
       <div>
         <img
-          className="rounded-lg shadow h-64"
+          className="rounded-lg shadow h-48 w-64"
           alt="business"
           src={
             props.Picture
@@ -22,7 +22,7 @@ export default function BusinessCard(props) {
           }
         />
       </div>
-      <div className="border-gray p-4 bg-white -mt-16 p-4">
+      <div className="border-gray-300 w-64  p-4 bg-white -mt-16 p-4">
         <h3 className="mt-4">
           <span className="font-bold rounded bg-white px-4 py-2">
             {props.Bname}
