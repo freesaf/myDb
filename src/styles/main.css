@@ -4282,6 +4282,10 @@ video {
   cursor: pointer;
 }
 
+.cursor-grab {
+  cursor: grab;
+}
+
 .cursor-wait {
   cursor: wait;
 }
@@ -11895,6 +11899,33 @@ video {
   transition-delay: 1000ms;
 }
 
+.googleBtn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  width: 22rem;
+  display: inline-block;
+  height: auto;
+  box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.16),
+    0 2px 4px 0 rgba(17, 22, 26, 0.08),
+    0 4px 8px 0 rgba(17, 22, 26, 0.08);
+}
+
+.scroller {
+  outline: none;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+
+.scroller::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -15570,6 +15601,10 @@ video {
 
   .sm\:cursor-pointer {
     cursor: pointer;
+  }
+
+  .sm\:cursor-grab {
+    cursor: grab;
   }
 
   .sm\:cursor-wait {
@@ -26863,6 +26898,10 @@ video {
     cursor: pointer;
   }
 
+  .md\:cursor-grab {
+    cursor: grab;
+  }
+
   .md\:cursor-wait {
     cursor: wait;
   }
@@ -38154,6 +38193,10 @@ video {
     cursor: pointer;
   }
 
+  .lg\:cursor-grab {
+    cursor: grab;
+  }
+
   .lg\:cursor-wait {
     cursor: wait;
   }
@@ -49443,6 +49486,10 @@ video {
 
   .xl\:cursor-pointer {
     cursor: pointer;
+  }
+
+  .xl\:cursor-grab {
+    cursor: grab;
   }
 
   .xl\:cursor-wait {
