@@ -22,7 +22,7 @@ export default function BusinessCard(props) {
           }
         />
       </div>
-      <div className="border-gray-300 w-64  p-4 bg-white -mt-16 p-4">
+      <div className="border-gray-300 w-64 p-4 bg-white -mt-16 p-4">
         <h3 className="mt-4">
           <span className="font-bold rounded bg-white px-4 py-2">
             {props.Bname}
