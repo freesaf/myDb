@@ -1,6 +1,11 @@
 //Login
 export const SIGN_IN = "SIGN_IN";
 export const SIGN_OUT = "SIGN_OUT";
+
+//Payment
+export const TRANSACTION_SUCCESS = "TRANSACTION_SUCCESS";
+export const TRANSACTION_FAILED = "TRANSACTION_FAILED";
+
 //Image upload
 export const UPLOAD_PROGRESS = "UPLOAD_PROGRESS";
 export const UPLOAD_ERROR = "UPLOAD_ERROR";

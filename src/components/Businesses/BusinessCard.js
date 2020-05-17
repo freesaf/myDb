@@ -10,7 +10,7 @@ export default function BusinessCard(props) {
       onClick={() => {
         openBusiness();
       }}
-      className="cursor-pointer ml-6 mt-10 h-auto googleBtn">
+      className="cursor-pointer relative ml-4 mt-10 h-auto float-left googleBtn">
       <div>
         <img
           className="rounded-lg shadow h-48 w-64"
@@ -22,22 +22,25 @@ export default function BusinessCard(props) {
           }
         />
       </div>
-      <div className="border-gray-300 w-64 p-4 bg-white -mt-16 p-4">
-        <h3 className="mt-4">
-          <span className="font-bold rounded bg-white px-4 py-2">
-            {props.Bname}
-          </span>
-        </h3>
-        <h4 className="mt-4">
-          <span className="font-semibold">About: </span>
-          {props.About}
-        </h4>
-        <h4>
-          <span className="font-semibold">Website:</span> {props.Web}
-        </h4>
-        <h4>
-          <span className="font-semibold">City:</span> {props.City}
-        </h4>
+      <div className="px-2">
+        <div className="relative w-64 rounded-lg shadow-lg text-justify px-4 py-3  -mt-12">
+          <h3 className="mt-4">
+            <span className="font-bold rounded bg-white px-4 py-2">
+              {props.Bname}
+            </span>
+          </h3>
+          <h4 className="mt-4">
+            <span className="font-semibold">About: </span>
+            {props.About}
+          </h4>
+          <h4>
+            <span className="font-semibold">Website:</span>{" "}
+            {props.Web}
+          </h4>
+          <h4>
+            <span className="font-semibold">City:</span> {props.City}
+          </h4>
+        </div>
       </div>
     </div>
   );

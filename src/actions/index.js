@@ -1,4 +1,4 @@
-import { db, myFireStorage, firebaseAuth } from "../api";
+import { firestore, myFireStorage, firebaseAuth } from "../api";
 
 import {
   SIGN_IN,
@@ -27,6 +27,8 @@ import {
   EDIT_BUSINESS,
   FETCH_CURRENT_USER,
   FETCH_BUSINESS_PARTNERS_EXPERIENCES,
+  TRANSACTION_SUCCESS,
+  TRANSACTION_FAILED,
 } from "./types";
 
 // AUTHENTICATONS ACTIONS:
@@ -42,7 +44,6 @@ export const googleSignIn = () => async (dispatch) => {
       });
     })
     .catch((err) => {
-      console.log(err);
       dispatch({
         type: GOOGLE_SIGNIN_ERROR,
         payload: err,
@@ -56,7 +57,6 @@ export const userSignIn = ({ email, password }) => async (
   firebaseAuth()
     .signInWithEmailAndPassword(email, password)
     .then((u) => {
-      console.log(u);
       dispatch({
         type: SIGN_IN,
         payload: u.user,
@@ -67,8 +67,6 @@ export const userSignIn = ({ email, password }) => async (
         type: SIGN_IN_ERROR,
         payload: err,
       });
-      console.log(err);
-      console.log(err.message);
     });
 };
 
@@ -97,7 +95,6 @@ export const userSignOut = () => async (dispatch) => {
   firebaseAuth()
     .signOut()
     .then((res) => {
-      console.log(res);
       dispatch({
         type: SIGN_OUT,
       });
@@ -121,10 +118,121 @@ export const getAuthState = () => async (dispatch) => {
 /*------------------------------------------------------------- */
 /*------------------------------------------------------------- */
 
+//PAYMENTS ACTIONS:
+// create transaction details
+const get_transaction_details = async (details, share = 0) => {
+  return {
+    id: details.id,
+    payerEmail: details.payer.email_address,
+    transactionTime: new Date(),
+    payerName: details.payer.name,
+    payerId: details.payer.payer_id,
+    purchase_details: {
+      amount: details.purchase_units[0].amount,
+      purchasedExperience: details.purchase_units[0].description,
+      earning: share,
+    },
+  };
+};
+
+// Get current Balance
+const getUserBalance = async (id) => {
+  const balance = await firestore()
+    .collection("businesses")
+    .doc(id)
+    .get()
+    .then((b) => b.data().Balance)
+    .catch((err) => {
+      console.log(err);
+    });
+  return balance;
+};
+
+//Set Paid status
+const setPaid = (check, details) => {
+  if (check) {
+    return {
+      type: TRANSACTION_SUCCESS,
+      payload: details,
+    };
+  } else {
+    return {
+      type: TRANSACTION_FAILED,
+      payload: details,
+    };
+  }
+};
+
+export const completePurchase = (
+  { OwnerId, Profit, Price, PartnerData },
+  details
+) => async (dispatch) => {
+  dispatch(setLoaderState(true));
+  let rate = Profit.split("/");
+  rate = rate.map((n) => n.substring(n.length - 2));
+  const ownerShare = Price * (parseInt(rate[0]) / 100);
+  const partnerShare = Price * (parseInt(rate[1]) / 100);
+  const PartnerId = PartnerData.Uid;
+
+  // Get current balance
+  const ownerBalance = await getUserBalance(OwnerId);
+  const partnerBalance = await getUserBalance(PartnerId);
+
+  console.log(
+    `Owner Balance ${ownerBalance} and Partner balance ${partnerBalance}`
+  );
+  // Calculate the new Balance
+  const newOwnerBalance = ownerShare + ownerBalance;
+  const newPartnerBalance = partnerShare + partnerBalance;
+
+  // get transaction details
+  const owner_transaction_details = await get_transaction_details(
+    details,
+    ownerShare
+  );
+  const partner_transaction_details = await get_transaction_details(
+    details,
+    partnerShare
+  );
+  console.log(partner_transaction_details);
+  console.log(owner_transaction_details);
+
+  // update user Balance & add transaction details
+  dispatch(
+    updateBusiness(OwnerId, {
+      Balance: newOwnerBalance,
+      Transactions: firestore.FieldValue.arrayUnion(
+        owner_transaction_details
+      ),
+    })
+  );
+  dispatch(
+    updateBusiness(PartnerId, {
+      Balance: newPartnerBalance,
+      Transactions: firestore.FieldValue.arrayUnion(
+        partner_transaction_details
+      ),
+    })
+  );
+
+  //update paid state
+  if (details.status === "COMPLETED") {
+    dispatch(setPaid(true, get_transaction_details(details)));
+  } else {
+    dispatch(setPaid(false, details));
+  }
+  dispatch(setLoaderState(false));
+};
+
+/*------------------------------------------------------------- */
+/*------------------------------------------------------------- */
+/*------------------------------------------------------------- */
+
 //BUSINESSES ACTIONS:
 
 export const updateBusiness = (id, data) => async (dispatch) => {
-  db.collection("businesses")
+  firestore()
+    .collection("businesses")
     .doc(id)
     .update(data)
     .then((res) => {
@@ -158,7 +266,7 @@ export const completeUserData = (user, data, imgLink) => async (
     Terms: data.Terms,
     Balance: 0,
   };
-  const docRef = db.collection("businesses").doc(user.uid);
+  const docRef = firestore().collection("businesses").doc(user.uid);
   docRef
     .set(userData)
     .then(() => {
@@ -182,7 +290,7 @@ export const fetchSelectedBusiness = (
   getPartnerExp = false,
   currentUser = false
 ) => async (dispatch) => {
-  const docRef = db.collection("businesses").doc(id);
+  const docRef = firestore().collection("businesses").doc(id);
   const res = await docRef
     .get()
     .then((snapshot) => {
@@ -211,7 +319,7 @@ export const fetchSelectedBusiness = (
 };
 
 export const fetchAllBusinesses = () => async (dispatch) => {
-  const docRef = await db.collection("businesses").get();
+  const docRef = await firestore().collection("businesses").get();
   let newBiz = [];
   docRef.docs.forEach((d) => {
     newBiz.push(d.data());
@@ -228,7 +336,7 @@ export const searchBusinessByNameorEmail = (businessId) => async (
   businessId = businessId.trim();
   let resp;
   if (RegExp(/^\S+@\S+$/i).test(businessId)) {
-    const emaildocRef = db
+    const emaildocRef = firestore()
       .collection("businesses")
       .where("Email", "==", businessId)
       .get();
@@ -240,7 +348,7 @@ export const searchBusinessByNameorEmail = (businessId) => async (
       }
     });
   } else {
-    const namedocRef = db
+    const namedocRef = firestore()
       .collection("businesses")
       .where("Bname", "==", businessId)
       .get();
@@ -276,6 +384,7 @@ export const createExperience = (
   const experience = {
     ExpName: data.ExpName,
     Conditions: data.Conditions,
+    OwnerOffer: data.OwnerOffer,
     Category: data.Category,
     Price: data.Price,
     Deadline: data.Deadline,
@@ -291,7 +400,7 @@ export const createExperience = (
     Partner: data.Partner,
     PartnerData: partnerData,
   };
-  const docRef = db
+  const docRef = firestore()
     .collection("businesses")
     .doc(userId)
     .collection("exp");
@@ -317,7 +426,7 @@ export const createExperience = (
 export const updateExperience = (data, ExpId, OwnerId) => async (
   dispatch
 ) => {
-  const docRef = db
+  const docRef = firestore()
     .collection("businesses")
     .doc(OwnerId)
     .collection("exp")
@@ -336,7 +445,7 @@ export const updateExperience = (data, ExpId, OwnerId) => async (
 };
 
 export const fetchExperiencesById = (userUid) => async (dispatch) => {
-  const docRef = await db
+  const docRef = await firestore()
     .collection("businesses")
     .doc(userUid)
     .collection("exp")
@@ -357,7 +466,7 @@ export const fetchSelectedBusinessExperiences = (userId) => async (
   dispatch
 ) => {
   let selectedBizExperiences = [];
-  const docRef = await db
+  const docRef = await firestore()
     .collection("businesses")
     .doc(userId)
     .collection("exp")
@@ -375,7 +484,7 @@ export const fetchSelectedBusinessExperiences = (userId) => async (
 
 export const fetchSelectedExperience = (id) => async (dispatch) => {
   let selectedExperience;
-  const docRef = await db
+  const docRef = await firestore()
     .collectionGroup("exp")
     .where("id", "==", id)
     .get();
@@ -401,7 +510,7 @@ export const fetchPartnersExp = (
   userEmail,
   business = false
 ) => async (dispatch) => {
-  const docRef = await db
+  const docRef = await firestore()
     .collectionGroup("exp")
     .where("Partner", "==", userEmail)
     .get();
@@ -423,7 +532,7 @@ export const fetchPartnersExp = (
 };
 
 export const fetchPublishedExp = () => async (dispatch) => {
-  const docRef = await db
+  const docRef = await firestore()
     .collectionGroup("exp")
     .where("Published", "==", true)
     .get();
@@ -457,46 +566,7 @@ export const categorySelected = (category) => {
   };
 };
 
-export const splitProfit = ({
-  OwnerId,
-  Profit,
-  Price,
-  PartnerData,
-}) => async (dispatch) => {
-  const getUserBalance = async (id) => {
-    const balance = await db
-      .collection("businesses")
-      .doc(id)
-      .get()
-      .then((b) => b.data().Balance)
-      .catch((err) => {
-        console.log(err);
-      });
-    return balance;
-  };
-
-  let rate = Profit.split("/");
-  rate = rate.map((n) => n.substring(n.length - 2));
-  const ownerShare = Price * (parseInt(rate[0]) / 100);
-  const partnerShare = Price * (parseInt(rate[1]) / 100);
-  const PartnerId = PartnerData.Uid;
-
-  // Get current balance
-  const ownerBalance = await getUserBalance(OwnerId);
-  const partnerBalance = await getUserBalance(PartnerId);
-
-  console.log(
-    `Owner Balance ${ownerBalance} and Partner balance ${partnerBalance}`
-  );
-  // Calculate the new Balance
-  const newOwnerBalance = ownerShare + ownerBalance;
-  const newPartnerBalance = partnerShare + partnerBalance;
-  // update user Balance
-  dispatch(updateBusiness(OwnerId, { Balance: newOwnerBalance }));
-  dispatch(updateBusiness(PartnerId, { Balance: newPartnerBalance }));
-};
-
-const setLoaderState = (state) => {
+export const setLoaderState = (state) => {
   return {
     type: SET_LOADER,
     payload: state,

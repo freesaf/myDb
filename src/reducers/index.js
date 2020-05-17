@@ -5,6 +5,7 @@ import experienceReducer from "./experienceReducer";
 import uploadReducer from "./uploadReducer";
 import errorReducer from "./errorReducer";
 import loaderReducer from "./loaderReducer";
+import cartReducer from "./cartReducer";
 
 // import { reducer as formReducer } from "redux-form";
 export default combineReducers({
@@ -14,4 +15,5 @@ export default combineReducers({
   uploads: uploadReducer,
   errors: errorReducer,
   loader: loaderReducer,
+  cart: cartReducer,
 });
