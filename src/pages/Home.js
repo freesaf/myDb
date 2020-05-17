@@ -66,31 +66,35 @@ export default function Home() {
   return (
     <div>
       <div
-        className=" flex flex-col justify-around text-center bg-fixed h-screen"
+        className=" bg-fixed"
         style={{
           backgroundImage:
             "url(http://www.shoppingaffordable.net/wp-content/uploads/2018/05/shopping-hero-first_card.jpg)",
         }}>
-        <div className="text-gray-500 bg-gray-200 rounded-2xl text-4xl  font-bold">
-          Welcome to Zamma Zamba
-        </div>
-        <div className="px-10">
-          <h1 className="text-left block uppercase tracking-wide text-gray-500 text-4xl font-bold mb-2">
-            Find the
-            <span className="block text-6xl">
-              best Local experiences
-            </span>
-          </h1>
-          <div
-            style={{ backgroundColor: "rgba(255,255,255,0.45)" }}
-            className="flex justify-center items-end text-center ">
-            <input
-              className=" block w-3/4 bg-gray-200 text-gray-700 border border-gray-700 rounded h-12 py-3 px-4 mt-3 mb-3 leading-tight focus:outline-none focus:bg-gray-400"
-              type="search"
-              name="search business"
-              id="searchHome"
-            />
-            <button className="ion-ios-search bg-blue-500 text-white text-2xl block rounded leading-tight w-12 h-12 ml-4 mt-3 mb-3"></button>
+        <div
+          style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+          className=" flex flex-col justify-around text-center h-screen">
+          <div className="text-white text-4xl  font-bold">
+            Welcome to Zamma Zamba
+          </div>
+          <div className="px-48">
+            <h1 className="text-left block uppercase tracking-wide text-white text-4xl font-bold mb-2">
+              Find the
+              <span className="block text-6xl">
+                best Local experiences
+              </span>
+            </h1>
+            <div
+              style={{ backgroundColor: "rgba(255,255,255,0.45)" }}
+              className="flex justify-center items-end text-center ">
+              <input
+                className=" block w-3/4 bg-gray-200 text-gray-700 border border-gray-700 rounded h-12 py-3 px-4 mt-3 mb-3 leading-tight focus:outline-none focus:bg-gray-400"
+                type="search"
+                name="search business"
+                id="searchHome"
+              />
+              <button className="ion-ios-search bg-blue-500 text-white text-2xl block rounded leading-tight w-12 h-12 ml-4 mt-3 mb-3"></button>
+            </div>
           </div>
         </div>
       </div>
@@ -99,6 +103,7 @@ export default function Home() {
           what is Zamma Zamba ?
         </h2>
         <iframe
+          className="max-w-full"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/DNTaJhB6XtQ"
@@ -107,22 +112,26 @@ export default function Home() {
           allowFullScreen
         />
       </div>
-      <div>
-        <div className="overflow-hidden pb-10">
-          <div className="max-w-6xl text-center ">
-            <h3 className="inline-block font-bold mt-4 mb-4 ">
+      <div className="px-16">
+        <div className="overflow-hidden mt-10 pb-10">
+          <div className="flex flex-col justify-center items-center">
+            <h3 className="uppercase tracking-wide text-xl font-bold">
               Browse Businesses
             </h3>
+          </div>
+          <div className="max-w-6xl text-center ">
             <div className="h-auto w-full overflow-x-auto">
               {renderBusinesses(businesses)}
             </div>
           </div>
         </div>
         <div className="overflow-hidden pb-10">
-          <div className="max-w-6xl text-center ">
-            <h3 className="inline-block font-bold mt-4 mb-4 ">
+          <div className="flex flex-col justify-center items-center mt-4">
+            <h3 className="uppercase tracking-wide text-xl font-bold mb-4">
               Browse Experiences
             </h3>
+          </div>
+          <div className="max-w-6xl text-center ">
             <div className="h-auto w-full overflow-x-auto">
               {renderExperiences(experiences)}
             </div>

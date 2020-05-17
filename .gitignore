@@ -17,6 +17,7 @@ src/api.js
 .firebase
 firebase.json
 .firebaserc
+firebase-debug.log
 
 # production
 /build

@@ -14,6 +14,7 @@ import EditExperience from "./components/experiences/EditExperience";
 import ShowExperience from "./pages/ShowExperience";
 import logo from "./images/logo.svg";
 import Cart from "./pages/Cart";
+import Footer from "./components/Footer";
 
 function App() {
   let background = "green";
@@ -38,7 +39,7 @@ function App() {
         background={background}
         hoverBackground={hoverBackground}
       />
-      <Router>
+      <Router className="min-h-1/2s">
         <Home path="/" />
         <Experiences path="/experiences" />
         <Register path="/start" />
@@ -52,6 +53,7 @@ function App() {
         <Cart path="/cart" />
         <ThankYou path="/thankyou" />
       </Router>
+      <Footer />
     </div>
   );
 }

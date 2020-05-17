@@ -10,7 +10,7 @@ export default function BusinessCard(props) {
       onClick={() => {
         openBusiness();
       }}
-      className="cursor-pointer relative ml-4 mt-10 h-auto float-left googleBtn">
+      className="cursor-pointer relative ml-4 mt-10 mb-4 h-auto float-left googleBtn">
       <div>
         <img
           className="rounded-lg shadow h-48 w-64"
@@ -22,7 +22,7 @@ export default function BusinessCard(props) {
           }
         />
       </div>
-      <div className="px-2">
+      <div className="p-2">
         <div className="relative w-64 rounded-lg shadow-lg text-justify px-4 py-3  -mt-12">
           <h3 className="mt-4">
             <span className="font-bold rounded bg-white px-4 py-2">
@@ -33,11 +33,11 @@ export default function BusinessCard(props) {
             <span className="font-semibold">About: </span>
             {props.About}
           </h4>
-          <h4>
+          <h4 className="mt-4">
             <span className="font-semibold">Website:</span>{" "}
             {props.Web}
           </h4>
-          <h4>
+          <h4 className="mt-4">
             <span className="font-semibold">City:</span> {props.City}
           </h4>
         </div>

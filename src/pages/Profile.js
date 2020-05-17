@@ -161,7 +161,7 @@ export default function Profile() {
         return <>{getUserProfile(currentUser)} </>;
       case false:
         return (
-          <div className="flex items-center ml-6">
+          <div className="flex items-center p-16">
             <h2>
               Please Login or register a new account to access this
               page
