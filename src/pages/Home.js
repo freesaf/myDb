@@ -17,7 +17,8 @@ export default function Home() {
   useEffect(() => {
     dispatch(fetchPublishedExp());
     dispatch(fetchAllBusinesses());
-  });
+    console.log("executed");
+  }, [dispatch]);
 
   const openTarget = (id, e, target) => {
     navigate(`/${target}${id}`);

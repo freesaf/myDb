@@ -67,23 +67,6 @@ export default function Paypal({
         .render("#paypal-button-container");
       //This function displays Smart Payment Buttons on your web page.
     });
-  });
+  }, [paypalScript]);
   return <div className="mt-10" id="paypal-button-container"></div>;
 }
-
-// {
-//     order:
-// authorize: ƒ r()
-// capture: ƒ r()
-// get: ƒ r()
-// patch: ƒ r()
-// __proto__: Object
-// payment: null
-// redirect: ƒ r()
-// restart: ƒ r()
-// subscription:
-// activate: ƒ r()
-// get: ƒ r()
-// __proto__: Object
-// __proto__: Object
-// }
