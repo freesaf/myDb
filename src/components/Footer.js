@@ -8,7 +8,7 @@ export default function Footer() {
   };
   return (
     <footer className=" bg-gray-300 max-w-full">
-      <div className="flex flex-col sm:flex-row justify-between p-16">
+      <div className="flex flex-col sm:flex-row justify-between items-center text-center p-16">
         <div className="flex-col mt-10">
           <h3 className="w-12 border-b-2 border-blue-500">About</h3>{" "}
           <ul>
@@ -47,7 +47,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center pb-6">
+      <div className="flex flex-row justify-center items-center px-4 pb-6">
         <svg
           className="fill-current h-6 w-6"
           xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@ export default function Footer() {
         </svg>
         <Link
           to="/"
-          className="pl-4font-semibold text-gray-700 tracking-tight">
+          className="font-semibold text-gray-700 tracking-tight">
           ZAMMA ZAMBA
         </Link>
         <p> © {getDate()} Zamma Zamba All Rights Reserved.</p>

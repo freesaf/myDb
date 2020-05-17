@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <div>
       <div
-        className=" bg-fixed"
+        className=" bg-fixed max-w-full"
         style={{
           backgroundImage:
             "url(http://www.shoppingaffordable.net/wp-content/uploads/2018/05/shopping-hero-first_card.jpg)",
@@ -77,10 +77,10 @@ export default function Home() {
           <div className="text-white text-4xl  font-bold">
             Welcome to Zamma Zamba
           </div>
-          <div className="px-48">
-            <h1 className="text-left block uppercase tracking-wide text-white text-4xl font-bold mb-2">
+          <div className="px-10 sm:px-48">
+            <h1 className="text-left block uppercase tracking-wide text-white text-2xl sm:text-4xl font-bold mb-2">
               Find the
-              <span className="block text-6xl">
+              <span className="block text-4xl sm:text-6xl">
                 best Local experiences
               </span>
             </h1>
@@ -88,12 +88,12 @@ export default function Home() {
               style={{ backgroundColor: "rgba(255,255,255,0.45)" }}
               className="flex justify-center items-end text-center ">
               <input
-                className=" block w-3/4 bg-gray-200 text-gray-700 border border-gray-700 rounded h-12 py-3 px-4 mt-3 mb-3 leading-tight focus:outline-none focus:bg-gray-400"
+                className=" block w-3/4 bg-gray-200 text-gray-700 border border-gray-700 rounded h-12 py-3 px-4 m-4 leading-tight focus:outline-none focus:bg-gray-400"
                 type="search"
                 name="search business"
                 id="searchHome"
               />
-              <button className="ion-ios-search bg-blue-500 text-white text-2xl block rounded leading-tight w-12 h-12 ml-4 mt-3 mb-3"></button>
+              <button className="ion-ios-search bg-blue-500 text-white text-2xl block rounded leading-tight w-12 h-12  m-4"></button>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
           what is Zamma Zamba ?
         </h2>
         <iframe
-          className="max-w-full"
+          className="max-w-2/3s"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/DNTaJhB6XtQ"
@@ -112,7 +112,7 @@ export default function Home() {
           allowFullScreen
         />
       </div>
-      <div className="px-16">
+      <div className="px-4 sm:px-16">
         <div className="overflow-hidden mt-10 pb-10">
           <div className="flex flex-col justify-center items-center">
             <h3 className="uppercase tracking-wide text-xl font-bold">
