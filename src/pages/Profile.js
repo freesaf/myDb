@@ -71,7 +71,7 @@ export default function Profile() {
       }
     } else {
       return (
-        <div className="bg-gray-500 inilne-block h-screen -mt-10 flex justify-center items-center text-white cursor-wait">
+        <div className="bg-gray-500 inilne-block h-screen flex justify-center items-center text-white cursor-wait">
           <h1 className="font-bold">Loading... Please wait...</h1>
         </div>
       );
@@ -83,7 +83,7 @@ export default function Profile() {
       switch (Boolean(currentUser)) {
         case true:
           return (
-            <div className="flex -mt-10 h-auto">
+            <div className="flex h-auto">
               <div className=" inline-block h-auto min-h-screen w-1/4 bg-gray-600">
                 <div
                   onClick={() => {
@@ -130,7 +130,7 @@ export default function Profile() {
         case false:
           if (currentUser === null) {
             return (
-              <div className="bg-gray-500 inilne-block h-screen -mt-10 flex justify-center items-center text-white cursor-wait">
+              <div className="bg-gray-500 inilne-block h-screen  flex justify-center items-center text-white cursor-wait">
                 <h1 className="font-bold">
                   Loading... Please wait...
                 </h1>
@@ -149,7 +149,7 @@ export default function Profile() {
             );
         default:
           return (
-            <div className="bg-gray-500 inilne-block h-screen -mt-10 flex justify-center items-center text-white cursor-wait">
+            <div className="bg-gray-500 inilne-block h-screen flex justify-center items-center text-white cursor-wait">
               <h1 className="font-bold">Loading... Please wait...</h1>
             </div>
           );
@@ -177,7 +177,7 @@ export default function Profile() {
       default:
         if (loader) {
           return (
-            <div className="bg-gray-500 inilne-block h-screen -mt-10 flex justify-center items-center text-white cursor-wait">
+            <div className="bg-gray-500 inilne-block h-screen flex justify-center items-center text-white cursor-wait">
               <h1 className="font-bold">Loading... Please wait...</h1>
             </div>
           );

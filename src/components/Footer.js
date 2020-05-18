@@ -7,7 +7,7 @@ export default function Footer() {
     return date;
   };
   return (
-    <footer className=" bg-gray-300 max-w-full">
+    <footer className=" bg-gray-300 mt-10">
       <div className="flex flex-col sm:flex-row justify-between items-center text-center p-16">
         <div className="flex-col mt-10">
           <h3 className="w-12 border-b-2 border-blue-500">About</h3>{" "}
