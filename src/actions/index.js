@@ -21,6 +21,8 @@ import {
   SEARCH_BUSINESS_OWNER,
   FETCH_SELECTED_BUSINESS,
   EDIT_EXPERIENCE,
+  ADD_PRODUCT,
+  FETCH_PRODUCTS,
   CREATE_EXPERIENCE,
   SIGN_UP_ERROR,
   SET_LOADER,
@@ -51,45 +53,45 @@ export const googleSignIn = () => async (dispatch) => {
     });
 };
 
-export const userSignIn = ({ email, password }) => async (
-  dispatch
-) => {
-  firebaseAuth()
-    .signInWithEmailAndPassword(email, password)
-    .then((u) => {
-      dispatch({
-        type: SIGN_IN,
-        payload: u.user,
+export const userSignIn =
+  ({ email, password }) =>
+  async (dispatch) => {
+    firebaseAuth()
+      .signInWithEmailAndPassword(email, password)
+      .then((u) => {
+        dispatch({
+          type: SIGN_IN,
+          payload: u.user,
+        });
+      })
+      .catch((err) => {
+        dispatch({
+          type: SIGN_IN_ERROR,
+          payload: err,
+        });
       });
-    })
-    .catch((err) => {
-      dispatch({
-        type: SIGN_IN_ERROR,
-        payload: err,
-      });
-    });
-};
+  };
 
-export const userSingUp = ({ email, password }) => async (
-  dispatch
-) => {
-  dispatch(setLoaderState(true));
-  firebaseAuth()
-    .createUserWithEmailAndPassword(email, password)
-    .then((res) => {
-      dispatch({
-        type: SIGN_IN,
-        payload: res.user,
+export const userSingUp =
+  ({ email, password }) =>
+  async (dispatch) => {
+    dispatch(setLoaderState(true));
+    firebaseAuth()
+      .createUserWithEmailAndPassword(email, password)
+      .then((res) => {
+        dispatch({
+          type: SIGN_IN,
+          payload: res.user,
+        });
+      })
+      .catch((err) => {
+        dispatch({
+          type: SIGN_UP_ERROR,
+          payload: err,
+        });
+        dispatch(setLoaderState(false));
       });
-    })
-    .catch((err) => {
-      dispatch({
-        type: SIGN_UP_ERROR,
-        payload: err,
-      });
-      dispatch(setLoaderState(false));
-    });
-};
+  };
 
 export const userSignOut = () => async (dispatch) => {
   firebaseAuth()
@@ -163,66 +165,65 @@ const setPaid = (check, details) => {
   }
 };
 
-export const completePurchase = (
-  { OwnerId, Profit, Price, PartnerData },
-  details
-) => async (dispatch) => {
-  dispatch(setLoaderState(true));
-  let rate = Profit.split("/");
-  rate = rate.map((n) => n.substring(n.length - 2));
-  const ownerShare = Price * (parseInt(rate[0]) / 100);
-  const partnerShare = Price * (parseInt(rate[1]) / 100);
-  const PartnerId = PartnerData.Uid;
+export const completePurchase =
+  ({ OwnerId, Profit, Price, PartnerData }, details) =>
+  async (dispatch) => {
+    dispatch(setLoaderState(true));
+    let rate = Profit.split("/");
+    rate = rate.map((n) => n.substring(n.length - 2));
+    const ownerShare = Price * (parseInt(rate[0]) / 100);
+    const partnerShare = Price * (parseInt(rate[1]) / 100);
+    const PartnerId = PartnerData.Uid;
 
-  // Get current balance
-  const ownerBalance = await getUserBalance(OwnerId);
-  const partnerBalance = await getUserBalance(PartnerId);
+    // Get current balance
+    const ownerBalance = await getUserBalance(OwnerId);
+    const partnerBalance = await getUserBalance(PartnerId);
 
-  console.log(
-    `Owner Balance ${ownerBalance} and Partner balance ${partnerBalance}`
-  );
-  // Calculate the new Balance
-  const newOwnerBalance = ownerShare + ownerBalance;
-  const newPartnerBalance = partnerShare + partnerBalance;
+    console.log(
+      `Owner Balance ${ownerBalance} and Partner balance ${partnerBalance}`
+    );
+    // Calculate the new Balance
+    const newOwnerBalance = ownerShare + ownerBalance;
+    const newPartnerBalance = partnerShare + partnerBalance;
 
-  // get transaction details
-  const owner_transaction_details = await get_transaction_details(
-    details,
-    ownerShare
-  );
-  const partner_transaction_details = await get_transaction_details(
-    details,
-    partnerShare
-  );
-  console.log(partner_transaction_details);
-  console.log(owner_transaction_details);
+    // get transaction details
+    const owner_transaction_details = await get_transaction_details(
+      details,
+      ownerShare
+    );
+    const partner_transaction_details = await get_transaction_details(
+      details,
+      partnerShare
+    );
+    console.log(partner_transaction_details);
+    console.log(owner_transaction_details);
 
-  // update user Balance & add transaction details
-  dispatch(
-    updateBusiness(OwnerId, {
-      Balance: newOwnerBalance,
-      Transactions: firestore.FieldValue.arrayUnion(
-        owner_transaction_details
-      ),
-    })
-  );
-  dispatch(
-    updateBusiness(PartnerId, {
-      Balance: newPartnerBalance,
-      Transactions: firestore.FieldValue.arrayUnion(
-        partner_transaction_details
-      ),
-    })
-  );
+    // update user Balance & add transaction details
+    dispatch(
+      updateBusiness(OwnerId, {
+        Balance: newOwnerBalance,
+        Transactions: firestore.FieldValue.arrayUnion(
+          owner_transaction_details
+        ),
+      })
+    );
+    dispatch(
+      updateBusiness(PartnerId, {
+        Balance: newPartnerBalance,
+        Transactions: firestore.FieldValue.arrayUnion(
+          partner_transaction_details
+        ),
+      })
+    );
 
-  //update paid state
-  if (details.status === "COMPLETED") {
-    dispatch(setPaid(true, get_transaction_details(details)));
-  } else {
-    dispatch(setPaid(false, details));
-  }
-  dispatch(setLoaderState(false));
-};
+    //update paid state
+    if (details.status === "COMPLETED") {
+      dispatch(setPaid(true, get_transaction_details(details)));
+    } else {
+      dispatch(setPaid(false, details));
+    }
+    dispatch(setLoaderState(false));
+  };
 
 /*------------------------------------------------------------- */
 /*------------------------------------------------------------- */
@@ -248,9 +249,7 @@ export const updateBusiness = (id, data) => async (dispatch) => {
     });
 };
 
-export const completeUserData = (user, data, imgLink) => async (
-  dispatch
-) => {
+export const completeUserData = (user, data, imgLink) => async (dispatch) => {
   const userData = {
     Bname: data.Bname,
     Picture: imgLink,
@@ -285,38 +284,36 @@ export const completeUserData = (user, data, imgLink) => async (
     });
 };
 
-export const fetchSelectedBusiness = (
-  id,
-  getPartnerExp = false,
-  currentUser = false
-) => async (dispatch) => {
-  const docRef = firestore().collection("businesses").doc(id);
-  const res = await docRef
-    .get()
-    .then((snapshot) => {
-      if (snapshot.exists) {
-        if (getPartnerExp) {
-          const partnerEmail = snapshot.data().Email;
-          dispatch(fetchPartnersExp(partnerEmail, true));
+export const fetchSelectedBusiness =
+  (id, getPartnerExp = false, currentUser = false) =>
+  async (dispatch) => {
+    const docRef = firestore().collection("businesses").doc(id);
+    const res = await docRef
+      .get()
+      .then((snapshot) => {
+        if (snapshot.exists) {
+          if (getPartnerExp) {
+            const partnerEmail = snapshot.data().Email;
+            dispatch(fetchPartnersExp(partnerEmail, true));
+          }
+          return snapshot.data();
+        } else {
+          return false;
         }
-        return snapshot.data();
-      } else {
-        return false;
-      }
-    })
-    .catch((err) => console.log(err));
-  if (currentUser) {
-    dispatch({
-      type: FETCH_CURRENT_USER,
-      payload: res,
-    });
-  } else {
-    dispatch({
-      type: FETCH_SELECTED_BUSINESS,
-      payload: res,
-    });
-  }
-};
+      })
+      .catch((err) => console.log(err));
+    if (currentUser) {
+      dispatch({
+        type: FETCH_CURRENT_USER,
+        payload: res,
+      });
+    } else {
+      dispatch({
+        type: FETCH_SELECTED_BUSINESS,
+        payload: res,
+      });
+    }
+  };
 
 export const fetchAllBusinesses = () => async (dispatch) => {
   const docRef = await firestore().collection("businesses").get();
@@ -330,9 +327,7 @@ export const fetchAllBusinesses = () => async (dispatch) => {
   });
 };
 
-export const searchBusinessByNameorEmail = (businessId) => async (
-  dispatch
-) => {
+export const searchBusinessByNameorEmail = (businessId) => async (dispatch) => {
   businessId = businessId.trim();
   let resp;
   if (RegExp(/^\S+@\S+$/i).test(businessId)) {
@@ -374,58 +369,51 @@ export const searchBusinessByNameorEmail = (businessId) => async (
 
 //EXPERIENCES ACTIONS:
 
-export const createExperience = (
-  userId,
-  data,
-  partnerData,
-  imgLink,
-  userBname
-) => async (dispatch) => {
-  const experience = {
-    ExpName: data.ExpName,
-    Conditions: data.Conditions,
-    OwnerOffer: data.OwnerOffer,
-    Category: data.Category,
-    Price: data.Price,
-    Deadline: data.Deadline,
-    Picture: imgLink,
-    Profit: data.Profit,
-    Desc: data.Desc,
-    Published: false,
-    RedeemOffer: data.RedeemOffer,
-    OwnerId: userId,
-    OwnerBname: userBname,
-    PartnerOffer: "",
-    RedeemPartnerOffer: null,
-    Partner: data.Partner,
-    PartnerData: partnerData,
+export const createExperience =
+  (userId, data, partnerData, imgLink, userBname) => async (dispatch) => {
+    const experience = {
+      ExpName: data.ExpName,
+      Conditions: data.Conditions,
+      OwnerOffer: data.OwnerOffer,
+      Category: data.Category,
+      Price: data.Price,
+      Deadline: data.Deadline,
+      Picture: imgLink,
+      Profit: data.Profit,
+      Desc: data.Desc,
+      Published: false,
+      RedeemOffer: data.RedeemOffer,
+      OwnerId: userId,
+      OwnerBname: userBname,
+      PartnerOffer: "",
+      RedeemPartnerOffer: null,
+      Partner: data.Partner,
+      PartnerData: partnerData,
+    };
+    const docRef = firestore()
+      .collection("businesses")
+      .doc(userId)
+      .collection("exp");
+    docRef
+      .add(experience)
+      .then(() => {
+        dispatch(setImgLinktoNull());
+        console.log("data saved");
+        dispatch({
+          type: CREATE_EXPERIENCE,
+          payload: experience,
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+        dispatch({
+          type: CREATE_ERROR,
+          payload: err,
+        });
+      });
   };
-  const docRef = firestore()
-    .collection("businesses")
-    .doc(userId)
-    .collection("exp");
-  docRef
-    .add(experience)
-    .then(() => {
-      dispatch(setImgLinktoNull());
-      console.log("data saved");
-      dispatch({
-        type: CREATE_EXPERIENCE,
-        payload: experience,
-      });
-    })
-    .catch((err) => {
-      console.log(err);
-      dispatch({
-        type: CREATE_ERROR,
-        payload: err,
-      });
-    });
-};
 
-export const updateExperience = (data, ExpId, OwnerId) => async (
-  dispatch
-) => {
+export const updateExperience = (data, ExpId, OwnerId) => async (dispatch) => {
   const docRef = firestore()
     .collection("businesses")
     .doc(OwnerId)
@@ -462,25 +450,24 @@ export const fetchExperiencesById = (userUid) => async (dispatch) => {
   });
 };
 
-export const fetchSelectedBusinessExperiences = (userId) => async (
-  dispatch
-) => {
-  let selectedBizExperiences = [];
-  const docRef = await firestore()
-    .collection("businesses")
-    .doc(userId)
-    .collection("exp")
-    .where("Published", "==", true)
-    .get();
-  docRef.docs.forEach((d) => {
-    selectedBizExperiences.push(d.data());
-  });
+export const fetchSelectedBusinessExperiences =
+  (userId) => async (dispatch) => {
+    let selectedBizExperiences = [];
+    const docRef = await firestore()
+      .collection("businesses")
+      .doc(userId)
+      .collection("exp")
+      .where("Published", "==", true)
+      .get();
+    docRef.docs.forEach((d) => {
+      selectedBizExperiences.push(d.data());
+    });
 
-  dispatch({
-    type: FETCH_SELECTED_BIZ_EXPERIENCES,
-    payload: selectedBizExperiences,
-  });
-};
+    dispatch({
+      type: FETCH_SELECTED_BIZ_EXPERIENCES,
+      payload: selectedBizExperiences,
+    });
+  };
 
 export const fetchSelectedExperience = (id) => async (dispatch) => {
   let selectedExperience;
@@ -506,30 +493,29 @@ export const experienceSelected = (experience) => {
   };
 };
 
-export const fetchPartnersExp = (
-  userEmail,
-  business = false
-) => async (dispatch) => {
-  const docRef = await firestore()
-    .collectionGroup("exp")
-    .where("Partner", "==", userEmail)
-    .get();
-  let partnersExp = [];
-  docRef.docs.forEach((d) => {
-    partnersExp.push({ id: d.id, ...d.data() });
-  });
-  if (business) {
-    dispatch({
-      type: FETCH_BUSINESS_PARTNERS_EXPERIENCES,
-      payload: partnersExp,
+export const fetchPartnersExp =
+  (userEmail, business = false) =>
+  async (dispatch) => {
+    const docRef = await firestore()
+      .collectionGroup("exp")
+      .where("Partner", "==", userEmail)
+      .get();
+    let partnersExp = [];
+    docRef.docs.forEach((d) => {
+      partnersExp.push({ id: d.id, ...d.data() });
     });
-  } else {
-    dispatch({
-      type: FETCH_PARTNERS_EXPERIENCES,
-      payload: partnersExp,
-    });
-  }
-};
+    if (business) {
+      dispatch({
+        type: FETCH_BUSINESS_PARTNERS_EXPERIENCES,
+        payload: partnersExp,
+      });
+    } else {
+      dispatch({
+        type: FETCH_PARTNERS_EXPERIENCES,
+        payload: partnersExp,
+      });
+    }
+  };
 
 export const fetchPublishedExp = () => async (dispatch) => {
   const docRef = await firestore()
@@ -575,6 +561,7 @@ export const setLoaderState = (state) => {
 
 export const uploadFile = (files, bucketName) => async (dispatch) => {
   let file = files[0];
+  //RESIZE IMAGE
   let storageRef = myFireStorage().ref(`${bucketName}/${file.name}`);
   let uploadTask = storageRef.put(file);
 
@@ -610,15 +597,54 @@ export const uploadFile = (files, bucketName) => async (dispatch) => {
     function () {
       // Handle successful uploads on complete
       // For instance, get the download URL: https://firebasestorage.googleapis.com/...
-      uploadTask.snapshot.ref
-        .getDownloadURL()
-        .then(function (downloadURL) {
-          dispatch({
-            type: GET_DOWNLOAD_URL,
-            payload: downloadURL,
-          });
-          console.log("File available at", downloadURL);
+      uploadTask.snapshot.ref.getDownloadURL().then(function (downloadURL) {
+        dispatch({
+          type: GET_DOWNLOAD_URL,
+          payload: downloadURL,
         });
+        console.log("File available at", downloadURL);
+      });
     }
   );
+};
+
+/////////////// PRODUCTS ACTIONS /////////////////////////////
+export const addNewProduct = (data) => async (dispatch, getState) => {
+  const availableProducts = getState().products.availableProducts;
+  const docRef = firestore().collection("availableProducts");
+  // .doc(userId)
+  // .collection("exp");
+  docRef
+    .add(data)
+    .then(() => {
+      dispatch(setImgLinktoNull());
+      console.log("data saved");
+      let newProducts = [...availableProducts];
+      newProducts.push(data);
+      dispatch({
+        type: ADD_PRODUCT,
+        payload: newProducts,
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+      dispatch({
+        type: CREATE_ERROR,
+        payload: err,
+      });
+    });
+};
+
+export const fetchAllProducts = () => async (dispatch) => {
+  const docRef = await firestore().collection("availableProducts").get();
+  let availableProducts = [];
+  docRef.docs.forEach((d) => {
+    availableProducts.push(d.data());
+  });
+  console.log(availableProducts);
+
+  dispatch({
+    type: FETCH_PRODUCTS,
+    payload: availableProducts,
+  });
 };

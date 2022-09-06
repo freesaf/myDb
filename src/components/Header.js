@@ -69,11 +69,11 @@ export default function Header({ navlinks, background, logo }) {
           );
         })}
       </div>
-      <BtnLogin
+      {/* <BtnLogin
         className={`${
           navOpen ? "inline-block" : "hidden"
         } mt-4 sm:flex lg:inline-block p-2 mb-2 sm:mb-0 lg:mt-0 font-semibold border border-white hover:bg-${background}-300 text-${background}-100 hover:text-white mr-4`}
-      />
+      /> */}
     </nav>
   );
 }

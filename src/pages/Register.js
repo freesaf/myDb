@@ -69,7 +69,7 @@ export default function Register() {
 
       default:
         return (
-          <div className="bg-gray-500 inilne-block h-screen -mt-10 flex justify-center items-center text-white cursor-wait">
+          <div className="bg-gray-500 inilne-block h-screen flex justify-center items-center text-white cursor-wait">
             <h1 className="font-bold">Loading... Please wait...</h1>
           </div>
         );

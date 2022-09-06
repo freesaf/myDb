@@ -16,6 +16,8 @@ import ShowExperience from "./pages/ShowExperience";
 import logo from "./images/logo.svg";
 import Cart from "./pages/Cart";
 import Footer from "./components/Footer";
+import AddProduct from "./AddProduct";
+import ProductList from "./ProductList";
 
 function App() {
   let path;
@@ -24,16 +26,28 @@ function App() {
   }, [path]);
   let background = "green";
   let hoverBackground = "indigo-700";
+  // let navlinks = [
+  //   {
+  //     text: "Home",
+  //     path: "/",
+  //     icon: "ion-ios-home",
+  //   },
+  //   {
+  //     text: "Profile",
+  //     path: "/profile",
+  //     icon: "ion-ios-person",
+  //   },
+  // ];
   let navlinks = [
     {
-      text: "Home",
+      text: "Produit",
       path: "/",
-      icon: "ion-ios-home",
+      // icon: "ion-ios-home",
     },
     {
-      text: "Profile",
-      path: "/profile",
-      icon: "ion-ios-person",
+      text: "Ajouter produit",
+      path: "/ajouter",
+      // icon: "ion-ios-person",
     },
   ];
 
@@ -46,8 +60,10 @@ function App() {
         hoverBackground={hoverBackground}
       />
       <Router className="min-h-1/2s">
-        <Home path="/" />
-        <Experiences path="/experiences" />
+        {/* <Home path="/" /> */}
+        <AddProduct path="ajouter" />
+        <ProductList path="/" />
+        {/* <Experiences path="/experiences" />
         <Register path="/start" />
         <Businesses path="/businesses" />
         <BusinessOwner path="/businessOwner/:id" />
@@ -58,11 +74,11 @@ function App() {
         <ShowExperience path="businesses/show/:id" />
         <Cart path="/cart" />
         <ThankYou path="/thankyou" />
-        <NotFound default />
+        <NotFound default /> */}
       </Router>
-      <Match path="/profile">
+      {/* <Match path="/profile">
         {(props) => (props.match ? null : <Footer />)}
-      </Match>
+      </Match> */}
     </div>
   );
 }
