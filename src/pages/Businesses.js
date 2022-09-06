@@ -14,9 +14,13 @@ export default function Businesses() {
   });
 
   const businesses = state.businesses.businessesList;
+  const selectedCat = state.businesses.selectedCategory;
 
   useEffect(() => {
     dispatch(fetchAllBusinesses());
+    return () => {
+      dispatch(categorySelected(null));
+    };
   }, [dispatch]);
 
   const onSelectCategory = (category = null) => {
@@ -43,7 +47,9 @@ export default function Businesses() {
             onClick={() => {
               onSelectCategory();
             }}
-            className="border-solid border-collapse text-white bg-gray-800 mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 ">
+            className={`${
+              selectedCat === null ? "bg-gray-600" : "bg-gray-800"
+            } border-solid border-collapse text-white mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 `}>
             All
           </h4>
           <div>
@@ -60,7 +66,11 @@ export default function Businesses() {
                   onClick={() => {
                     onSelectCategory(category);
                   }}
-                  className="border-solid border-collapse text-white bg-gray-800 mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 ">
+                  className={`${
+                    selectedCat === category
+                      ? "bg-gray-600"
+                      : "bg-gray-800"
+                  } border-solid border-collapse text-white mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 `}>
                   {category}
                   {/* <button>&#x25BC;</button> */}
                   {/* {hoverIndex === indx
@@ -97,13 +107,12 @@ export default function Businesses() {
   };
 
   const renderBusinesses = () => {
-    const selectedCat = state.businesses.selectedCategory;
-    const businessToRender = selectedCat
-      ? businesses.filter((e) => e.Category === selectedCat)
-      : businesses;
     if (businesses === null) {
       return null;
     } else {
+      const businessToRender = selectedCat
+        ? businesses.filter((e) => e.Category === selectedCat)
+        : businesses;
       return businessToRender.map((b) => {
         return (
           <BusinessCard

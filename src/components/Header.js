@@ -7,7 +7,10 @@ export default function Header({ navlinks, background, logo }) {
 
   return (
     <nav
-      className={`mb-10 sm:flex sm:justify-between bg-${background}-400 sm:items-center sm:px-4 sm:py-3`}>
+      onMouseLeave={() => {
+        setNavOpen(false);
+      }}
+      className={`sm:flex sm:justify-between bg-${background}-400 sm:items-center sm:px-4 sm:py-3`}>
       <div className="flex items-center justify-between px-4 py-3 sm:p-0">
         <div className="flex items-center">
           <svg
@@ -66,11 +69,11 @@ export default function Header({ navlinks, background, logo }) {
           );
         })}
       </div>
-      <BtnLogin
+      {/* <BtnLogin
         className={`${
           navOpen ? "inline-block" : "hidden"
         } mt-4 sm:flex lg:inline-block p-2 mb-2 sm:mb-0 lg:mt-0 font-semibold border border-white hover:bg-${background}-300 text-${background}-100 hover:text-white mr-4`}
-      />
+      /> */}
     </nav>
   );
 }

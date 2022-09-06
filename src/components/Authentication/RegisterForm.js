@@ -8,7 +8,6 @@ export default function RegisterForm(props) {
   const onRegisterSubmit = (data) => {
     props.onRegisterSubmit(data);
   };
-  console.log(errors);
 
   return (
     <form

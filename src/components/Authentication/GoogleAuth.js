@@ -17,12 +17,12 @@ export default function GoogleAuth() {
       return <SignOutBtn />;
     } else {
       return (
-        <div className="inline-block text-center mt-4">
+        <div className="inline-block text-center">
           <button
             onClick={() => {
               dispatch(googleSignIn());
             }}
-            className="googleBtn block px-6 py-3 ml-10 bg-white mt-4">
+            className="googleBtn block px-6 py-3 bg-white">
             <span>
               <img
                 className="w-4 h-4 inline-block"
@@ -30,7 +30,7 @@ export default function GoogleAuth() {
                 src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
               />
             </span>
-            <span className="ml-2 font-semibold text-gray-600">
+            <span className="pl-2 font-semibold text-gray-600">
               Sing in with Google
             </span>
           </button>

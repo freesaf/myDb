@@ -22,10 +22,10 @@ export default function ExperienceCard({ exp, openExperience }) {
       onClick={() => {
         openExp();
       }}
-      className="cursor-pointer relative ml-4 mt-10 h-auto float-left">
+      className="cursor-pointer relative ml-4 mt-10 h-auto float-left googleBtn">
       <div className="">
         <img
-          className="rounded-lg w-64"
+          className="rounded-lg h-48 w-64"
           alt="experience"
           src={
             exp.Picture

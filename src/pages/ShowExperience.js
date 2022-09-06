@@ -31,10 +31,18 @@ export default function ShowExperience(props) {
                   Participating Partners
                 </th>
                 <th className="border-solid border-2 border-collapse border-gray-900 font-semibold py-4 px-2">
-                  {selectedExp.OwnerBname}
+                  <Link
+                    to={`/businessOwner/${selectedExp.OwnerId}`}
+                    className="font-semibold cursor-pointer">
+                    {selectedExp.OwnerBname}
+                  </Link>
                 </th>
                 <th className="border-solid border-2 border-collapse border-gray-900 font-semibold py-4 px-2">
-                  {selectedExp.PartnerData.Bname}
+                  <Link
+                    to={`/businessOwner/${selectedExp.PartnerData.Uid}`}
+                    className="font-semibold cursor-pointer">
+                    {selectedExp.PartnerData.Bname}
+                  </Link>
                 </th>
               </tr>
               <tr className="border-solid border-2 border-collapse border-gray-900 font-semibold py-2 px-2">

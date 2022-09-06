@@ -178,13 +178,13 @@ export default function ExperienceForm(props) {
         <br />
         <label
           className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-          htmlFor="desc">
+          htmlFor="ownOffer">
           Your offer Description
         </label>
 
         <textarea
           className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-400 focus:border-gray-500"
-          id="desc"
+          id="ownOffer"
           placeholder="offer description"
           name="OwnerOffer"
           ref={register({ required: true, min: 10 })}

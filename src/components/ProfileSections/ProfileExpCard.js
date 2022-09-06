@@ -33,7 +33,12 @@ export function UserExpCard({ exp }) {
         {exp.ExpName}{" "}
       </h3>
       <h4 className="mt-4">
-        <span className="font-semibold">My Offer: </span> {exp.Desc}{" "}
+        <span className="font-semibold">Offer description: </span>{" "}
+        {exp.Desc}{" "}
+      </h4>
+      <h4 className="mt-4">
+        <span className="font-semibold">My Offer: </span>{" "}
+        {exp.OwnerOffer}{" "}
       </h4>
 
       <h4 className="mt-4">
@@ -83,7 +88,6 @@ export function PartnerExpCard({ exp, submit }) {
     const upData = Object.assign(exp, data);
     submit(upData, exp.id, exp.OwnerId);
   };
-  console.log(errors);
 
   const state = useSelector((state) => {
     return state;

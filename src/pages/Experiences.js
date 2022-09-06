@@ -16,13 +16,17 @@ export default function Experiences() {
   });
 
   const exp = state.experiences.publishedExperiences;
+  const selectedCat = state.experiences.selectedCategory;
 
   useEffect(() => {
     dispatch(fetchPublishedExp());
+    return () => {
+      dispatch(categorySelected(null));
+    };
   }, [dispatch]);
 
   const openExp = (id, exp) => {
-    dispatch(experienceSelected(exp));
+    // dispatch(experienceSelected(exp));
     navigate(`/businesses/show/${id}`);
   };
 
@@ -46,7 +50,9 @@ export default function Experiences() {
             onClick={() => {
               onSelectCategory();
             }}
-            className="border-solid border-collapse text-white bg-gray-800 mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 ">
+            className={`${
+              selectedCat === null ? "bg-gray-600" : "bg-gray-800"
+            } border-solid border-collapse text-white mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 `}>
             All
           </h4>
           <div>
@@ -57,8 +63,12 @@ export default function Experiences() {
                   onClick={() => {
                     onSelectCategory(category);
                   }}
-                  className="border-solid border-collapse text-white bg-gray-800 mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 ">
-                  {category ? category : "Other"}
+                  className={`${
+                    selectedCat === category
+                      ? "bg-gray-600"
+                      : "bg-gray-800"
+                  } border-solid border-collapse text-white mb-0 border-2 border-b-0 border-gray-900 text-center cursor-pointer font-semibold py-2 px-10 `}>
+                  {category}
                 </h4>
               );
             })}
@@ -68,13 +78,12 @@ export default function Experiences() {
     }
   };
   const renderExperiences = () => {
-    const selectedCat = state.experiences.selectedCategory;
-    const expTorender = selectedCat
-      ? exp.filter((e) => e.Category === selectedCat)
-      : exp;
     if (exp === null) {
       return null;
     } else {
+      const expTorender = selectedCat
+        ? exp.filter((e) => e.Category === selectedCat)
+        : exp;
       return expTorender.map((e) => {
         return (
           <ExperienceCard

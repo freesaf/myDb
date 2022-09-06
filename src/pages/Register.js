@@ -37,15 +37,15 @@ export default function Register() {
         } else {
           return (
             <div>
-              <div className="flex justify-around">
-                <div className="w-1/4">
+              <div className="flex sm:justify-around items-center flex-col sm:items-start sm:flex-row">
+                <div className="sm:w-1/4">
                   <h2>Register a new account</h2>
                   <RegisterForm
                     signUpErr={err.signUpError}
                     onRegisterSubmit={onRegisterSubmit}
                   />
                 </div>
-                <div className="w-1/4">
+                <div className="sm:w-1/4 sm:mt-0 mt-10">
                   <h2>Login to your account</h2>
                   <LoginForm
                     signInErr={err.signInError}
@@ -55,7 +55,7 @@ export default function Register() {
               </div>
 
               <hr className="mt-10 mb-10"></hr>
-              <div className="text-center">
+              <div className="flex flex-col items-center mb-10">
                 <GoogleAuth />
                 <div className=" text-xs text-red-500 italic">
                   {err.googleSignInErr
@@ -69,7 +69,7 @@ export default function Register() {
 
       default:
         return (
-          <div className="bg-gray-500 inilne-block h-screen -mt-10 flex justify-center items-center text-white cursor-wait">
+          <div className="bg-gray-500 inilne-block h-screen flex justify-center items-center text-white cursor-wait">
             <h1 className="font-bold">Loading... Please wait...</h1>
           </div>
         );
