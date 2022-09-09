@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/zamma/static/css/main.c66934be.chunk.css",
+    "main.js": "/zamma/static/js/main.a0016334.chunk.js",
+    "main.js.map": "/zamma/static/js/main.a0016334.chunk.js.map",
+    "runtime-main.js": "/zamma/static/js/runtime-main.7dbf24e7.js",
+    "runtime-main.js.map": "/zamma/static/js/runtime-main.7dbf24e7.js.map",
+    "static/js/2.b0b8a37a.chunk.js": "/zamma/static/js/2.b0b8a37a.chunk.js",
+    "static/js/2.b0b8a37a.chunk.js.map": "/zamma/static/js/2.b0b8a37a.chunk.js.map",
+    "index.html": "/zamma/index.html",
+    "precache-manifest.1e172b408e220a165216767fa12e4087.js": "/zamma/precache-manifest.1e172b408e220a165216767fa12e4087.js",
+    "service-worker.js": "/zamma/service-worker.js",
+    "static/css/main.c66934be.chunk.css.map": "/zamma/static/css/main.c66934be.chunk.css.map",
+    "static/js/2.b0b8a37a.chunk.js.LICENSE.txt": "/zamma/static/js/2.b0b8a37a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/zamma/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dbf24e7.js",
+    "static/js/2.b0b8a37a.chunk.js",
+    "static/css/main.c66934be.chunk.css",
+    "static/js/main.a0016334.chunk.js"
+  ]
+}
