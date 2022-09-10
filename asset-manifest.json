@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zamma/static/css/main.c66934be.chunk.css",
-    "main.js": "/zamma/static/js/main.05e9271e.chunk.js",
-    "main.js.map": "/zamma/static/js/main.05e9271e.chunk.js.map",
+    "main.js": "/zamma/static/js/main.34dd7eb7.chunk.js",
+    "main.js.map": "/zamma/static/js/main.34dd7eb7.chunk.js.map",
     "runtime-main.js": "/zamma/static/js/runtime-main.7dbf24e7.js",
     "runtime-main.js.map": "/zamma/static/js/runtime-main.7dbf24e7.js.map",
     "static/js/2.b0b8a37a.chunk.js": "/zamma/static/js/2.b0b8a37a.chunk.js",
     "static/js/2.b0b8a37a.chunk.js.map": "/zamma/static/js/2.b0b8a37a.chunk.js.map",
     "index.html": "/zamma/index.html",
-    "precache-manifest.9c671a14ffb395a4954a50042acfc9f4.js": "/zamma/precache-manifest.9c671a14ffb395a4954a50042acfc9f4.js",
+    "precache-manifest.fc1dc41dc332055aca50866a3d804935.js": "/zamma/precache-manifest.fc1dc41dc332055aca50866a3d804935.js",
     "service-worker.js": "/zamma/service-worker.js",
     "static/css/main.c66934be.chunk.css.map": "/zamma/static/css/main.c66934be.chunk.css.map",
     "static/js/2.b0b8a37a.chunk.js.LICENSE.txt": "/zamma/static/js/2.b0b8a37a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.7dbf24e7.js",
     "static/js/2.b0b8a37a.chunk.js",
     "static/css/main.c66934be.chunk.css",
-    "static/js/main.05e9271e.chunk.js"
+    "static/js/main.34dd7eb7.chunk.js"
   ]
 }
