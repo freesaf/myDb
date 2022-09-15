@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c819c9a3a81a9f8149d2d3efc9dbb8d3",
+    "revision": "3af7043285edd65ee7ee2c00dd60b18d",
     "url": "/zamma/index.html"
   },
   {
-    "revision": "88ce01d40e62a49c2cc7",
+    "revision": "0a425e072b58adb1bbb6",
     "url": "/zamma/static/css/main.c66934be.chunk.css"
   },
   {
-    "revision": "bc1cc81f69c28b7bffb8",
-    "url": "/zamma/static/js/2.2939f954.chunk.js"
+    "revision": "479f0f4a73695090ebe4",
+    "url": "/zamma/static/js/2.97e6e69d.chunk.js"
   },
   {
     "revision": "0f59aded427042d87c15d0910a90fb3b",
-    "url": "/zamma/static/js/2.2939f954.chunk.js.LICENSE.txt"
+    "url": "/zamma/static/js/2.97e6e69d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "88ce01d40e62a49c2cc7",
-    "url": "/zamma/static/js/main.0eebbb9a.chunk.js"
+    "revision": "0a425e072b58adb1bbb6",
+    "url": "/zamma/static/js/main.bf4a30ba.chunk.js"
   },
   {
     "revision": "1b89a36a30fdc461a70b",

@@ -1,0 +1,2462 @@
+[
+  {
+    "keywords": " حليب الاطفال,  حليب النمو, lait de croissance, enfants, ",
+    "frName": "Lait croissance",
+    "productContenance": "500",
+    "createdAt": {
+      "seconds": 1661382000,
+      "nanoseconds": 735000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": " حليب النمو",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "barcode": "6111242103528",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242103528.jpg?alt=media&token=c06b15d5-6d31-4a03-9f18-cf0fe0a2fbb3",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "contentNumber": "1",
+    "brand": "Jaouda",
+    "sourceProductId": "zdhpOghzCCtTcnxJGZYP"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "brand": "Chergui",
+    "contentNumber": "1",
+    "productContenance": "200",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "ياغورت ماكسي",
+    "barcode": "6111126005160",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111126005160.png?alt=media&token=e4477af4-5061-4999-8a8e-46bc3daae7bc",
+    "keywords": "Yaourt Maxi Brassé aux fruits mangue passion céréales 200g CHERGUI, CHERGUI, yaourt, Grand, maxi chergui, ماكسي برازي الشركي, ياغورت, ياغورت كبير, ياغورت مانج",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1661468400,
+      "nanoseconds": 655000000
+    },
+    "hasBarcode": true,
+    "frName": "Yaourt Maxi Brassé",
+    "sourceProductId": "v2HTSXbRKVAasqgswurc"
+  },
+  {
+    "name": "سانيدة",
+    "contentNumber": "1",
+    "brand": "Cosumar",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111029000415.jpg?alt=media&token=3a645aeb-7cf8-40e4-a506-8ede58d5489e",
+    "hasBarcode": true,
+    "barcode": "6111029000415",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "productContenance": "2",
+    "createdAt": {
+      "seconds": 1661554800,
+      "nanoseconds": 944000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":2,\"name\":\"خنشة\",\"frName\":\"Sac\"}",
+    "keywords": "Sucre Granule, sucre,  سانيدة, سكر, سكر سانيدة,",
+    "frName": "Sucre Granule",
+    "sourceProductId": "oqvO26744sBeN2T3Du5T"
+  },
+  {
+    "frName": "Danette caramel",
+    "keywords": "Crème dessert caramel, yaourt dentte caramel, produit litière, منتوجات الحليب, مشتقات الحليب, ياغورت دانيت كاراميل , ",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111032007968.jpg?alt=media&token=4ae0e4ea-fbf2-453c-b297-94bb954baace",
+    "hasBarcode": true,
+    "productContenance": "1",
+    "contentNumber": "1",
+    "barcode": "6111032007968",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "brand": "Danone",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1661641200,
+      "nanoseconds": 728000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "دانيت كاراميل ",
+    "sourceProductId": "micKf2pXKgFAPJb5RsF3"
+  },
+  {
+    "hasBarcode": false,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2Flentille.jpg?alt=media&token=9d179115-b2a8-4fb0-b6bb-a2fb72691e46",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1661727600,
+      "nanoseconds": 920000000
+    },
+    "barcode": "",
+    "productContenance": "1",
+    "brand": "-",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "keywords": "عدس, lentille,قطنية، قطاني",
+    "frName": "Lentille",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":13,\"name\":\"كيلو\",\"frName\":\"Kilogramme\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "عدس",
+    "sourceProductId": "mEf0abzAavwIYEI2qZwY"
+  },
+  {
+    "keywords": "Yaourt brassé vanille Cremy 100g JAOUDA, yaourt vanille, cremy, , جودة ,ياغورت كريمي, ياغورت كريمي فانيلا, منتوجات الحليب,  مشتقات الحليب",
+    "contentNumber": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "كريمي فانيلا",
+    "createdAt": {
+      "seconds": 1661814000,
+      "nanoseconds": 88000000
+    },
+    "productContenance": "1",
+    "frName": "Cremy vanille",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242102163.jpg?alt=media&token=8b739929-c935-469b-ae35-19ece1806ce2",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "barcode": "6111242102163",
+    "hasBarcode": true,
+    "brand": "Jaouda",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "ln8LxajPmQjwBjtxnEfw"
+  },
+  {
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1661900400,
+      "nanoseconds": 880000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "4011 شاي شعرة",
+    "contentNumber": "1",
+    "frName": "Thé vert Chaara 4011",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "Sultan",
+    "barcode": "6111260273296",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111260273296.jpg?alt=media&token=6fca1c13-ab91-4980-a929-baf8ad5ff75b",
+    "productContenance": "1",
+    "keywords": "شاي اخضر ممتاز , 4011 شاي 4011 , شاي سلطان شعرة, شاي شعرة ,Thé vert en filaments Chaara 4011, thé 4011, thé vert de chine, the sultane en filaments, atay",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "sourceProductId": "li9fgq0x4fMD4d7hyAMB"
+  },
+  {
+    "barcode": "6111029000118",
+    "frName": "Sucre Enmer En Lingot",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111029000118.jpg?alt=media&token=8a525e3a-0a7d-437a-a978-34ed5770a0ae",
+    "name": "سكر النمر مورصو",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "keywords": "سكر , سكر مورصو, سكر باكية, sucre, sucre morceau, Sucre Lingot, Sucre Lingot pour thé\n\n",
+    "createdAt": {
+      "seconds": 1661986800,
+      "nanoseconds": 668000000
+    },
+    "contentNumber": "42",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "brand": "Cosumar",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "productContenance": "1",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "0ccRrNhc8qTFwwGGLKde"
+  },
+  {
+    "barcode": "6111069010474",
+    "createdAt": {
+      "seconds": 1662073200,
+      "nanoseconds": 550000000
+    },
+    "name": " شاي اخضر حبة عنبر مكركب بزهر الليمون رقم 17",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Thé vert en grains à la fleur d'oranger n°16 GRAIN AMBAR",
+    "keywords": "thé, the, Thé vert en grains à la fleur d'oranger,  شاي اخضر مكركب حبة عنبر بزهر الليمون, اتاي مكركب بزهر الليمون, شاي حبة عنبر مكركب, سلطان, atay",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "productContenance": "150",
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111069010474.jpg?alt=media&token=07de2d09-b412-4457-b5b2-427698bc0464",
+    "brand": "Sultan",
+    "sourceProductId": "7MaItAddPC87H4pFUk0v"
+  },
+  {
+    "barcode": "6111248490394",
+    "productContenance": "200",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1662159600,
+      "nanoseconds": 998000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111248490394.jpg?alt=media&token=1e4e3aa9-4a5c-4f52-b3d2-c68244c94d21",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "4011 شاي الهدية شعرة",
+    "frName": "Thé vert en filaments 4011",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "keywords": "Thé vert en filaments 4011, lahdiya, lahdia, lahdya, The 4011, 4011 شاي الهدية شعرة, شاي شعرة, شاي ممتاز, شاي 4011,",
+    "brand": "Lahdiya",
+    "sourceProductId": "Af6Ae6VTalCZDqXOoOg9"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "productContenance": "200",
+    "contentNumber": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "hasBarcode": true,
+    "barcode": "6111069004831",
+    "keywords": "thé, the, the vert en grain AL ASSALA,  شاي اخضر حبوب الاصالة, اتاي حبوب, شاي  الاصالة حبوب, atay",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111069004831.jpg?alt=media&token=56124337-bde1-4311-89d3-5507c43610b1",
+    "name": " شاي اخضر الاصالة حبوب رقم 10",
+    "brand": "Sultan",
+    "frName": "Thé vert en grains n°10 AL ASSALA",
+    "createdAt": {
+      "seconds": 1662246000,
+      "nanoseconds": 477000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "DIfAWvuwWyAagGbDVPPp"
+  },
+  {
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "productContenance": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "contentNumber": "1",
+    "hasBarcode": true,
+    "keywords": "غلال, danone, Yaourt, céreal, jaouda",
+    "createdAt": {
+      "seconds": 1662332400,
+      "nanoseconds": 870000000
+    },
+    "barcode": "6111242102002",
+    "frName": "Yaourt ghilal",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242102002.jpg?alt=media&token=f64b244f-e31a-42f0-9353-8ef45b245e88",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": "ياغورت غلال",
+    "brand": "Jaouda",
+    "sourceProductId": "GkIH7rTBGyKqtSoR4lL1"
+  },
+  {
+    "keywords": "زيت, زيت لوسيور, زيت المائدة, huile, huile de table, Lesieur, huile Lesieur",
+    "name": "زيت المائدة",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111024001974.jpg?alt=media&token=9e5926da-d27f-497e-83a5-014ce8cec126",
+    "contentNumber": "1",
+    "frName": "Huile de table",
+    "hasBarcode": true,
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "brand": "Lesieur",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "createdAt": {
+      "seconds": 1662418800,
+      "nanoseconds": 501000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":12,\"name\":\"بيدو\",\"frName\":\"Bidon\"}",
+    "barcode": "6111024001974",
+    "productContenance": "5",
+    "sourceProductId": "IEsvsJ8F84pvWcsUU114"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242924055.jpg?alt=media&token=73ef7ddd-4480-4a70-b3e5-eba465595417",
+    "contentNumber": "1",
+    "name": "سائل غسيل الاواني",
+    "hasBarcode": true,
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "createdAt": {
+      "seconds": 1662505200,
+      "nanoseconds": 605000000
+    },
+    "productContenance": "1.25",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "frName": "Liquide vaisselle",
+    "keywords": "سائل غسيل الاواني, maxis, vaisselle,ماكسيس",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "barcode": "6111242924055",
+    "brand": "Maxis's",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "sourceProductId": "OY8B7lyZJfP71sUJ9dGy"
+  },
+  {
+    "productContenance": "32",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "فروماج",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F3073781073645.jpg?alt=media&token=3919a35d-6a06-4a5a-a799-2c9005afab13",
+    "frName": "Fromage",
+    "brand": "La vache qui rit",
+    "createdAt": {
+      "seconds": 1662591600,
+      "nanoseconds": 475000000
+    },
+    "keywords": "fromage, farmage, la vache qui rit, kiri, فرماج, فروماج",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "barcode": "3073781073645",
+    "contentNumber": "32",
+    "sourceProductId": "P5em92H9RKP7CMHEK5O9"
+  },
+  {
+    "createdAt": {
+      "seconds": 1662678000,
+      "nanoseconds": 682000000
+    },
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Huile de tournesol Huilor",
+    "contentNumber": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "brand": "Lesieur",
+    "keywords": "huile, huilor, huile de table, زيت ويلور, زيت المائدة, زيت عباد الشمس",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "زيت ويلور",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":12,\"name\":\"بيدو\",\"frName\":\"Bidon\"}",
+    "barcode": "6111024001226",
+    "productContenance": "5",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111024001226.jpg?alt=media&token=b3219585-fea0-4419-9144-810c066d9456",
+    "sourceProductId": "QKdi5mQqndkjf4AKwo5H"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "frName": "Thé vert en grain n°16 GRAIN AMBAR",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1662764400,
+      "nanoseconds": 897000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": " شاي اخضر حبة عنبر مكركب رقم 16",
+    "brand": "Sultan",
+    "contentNumber": "1",
+    "barcode": "6111069000895",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111069000895.jpg?alt=media&token=a3b73518-f613-430b-aa9c-4f924ecba345",
+    "productContenance": "500",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "keywords": "thé, the, the vert en en grain ambar,  شاي اخضر مكركب حبة عنبر, اتاي حبوب, شاي حبة عنبر مكركب, سلطان, atay",
+    "sourceProductId": "USbIjNwHVu7COg0W8zjo"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":2,\"name\":\"خنشة\",\"frName\":\"Sac\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245710228.jpg?alt=media&token=42599114-4edf-409e-9bec-4c05b7464261",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "hasBarcode": true,
+    "productContenance": "10",
+    "contentNumber": "1",
+    "frName": "Farine Pâtissière",
+    "keywords": "Maymouna, mimouna, farine, دقيق الحلويات ,ميمونة ،طحين",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1662850800,
+      "nanoseconds": 977000000
+    },
+    "barcode": "6111245710228",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "دقيق الحلويات",
+    "brand": "Maymouna",
+    "sourceProductId": "dgvhpoGbFp2D28fU78gx"
+  },
+  {
+    "frName": "Lait UHT Naturel Entier",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "createdAt": {
+      "seconds": 1662937200,
+      "nanoseconds": 563000000
+    },
+    "brand": "Jaouda",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "productContenance": "1",
+    "contentNumber": "1",
+    "keywords": "lait, produit laitière, حليب منتوجات الالبان",
+    "barcode": "6111242101180",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242101180.jpg?alt=media&token=40e218ca-0f46-4e16-8165-347f185b9130",
+    "name": "حليب كامل طبيعي",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "dhafvzIoWYHdYGmOwE8F"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "barcode": "",
+    "hasBarcode": false,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2Fbaguette.jpg?alt=media&token=5ed1b17d-e9f5-4b39-96ba-ed8f9403d65b",
+    "frName": "Baguette",
+    "createdAt": {
+      "seconds": 1663023600,
+      "nanoseconds": 776000000
+    },
+    "keywords": "كومير, baguette, parisien, خبز,باكيط، باڭيط, pain",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "productContenance": "1",
+    "name": "كومير كبير",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "-",
+    "sourceProductId": "e20iQHQr3PX8S48Uw4bo"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Sultan",
+    "hasBarcode": false,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2FAL%20BAHYA.jpg?alt=media&token=da1d5267-84d9-4bc0-a20a-38712196ad83",
+    "barcode": "",
+    "name": "9371 شاي اخضر شعرة الباهية",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Thé vert en filaments 9371 AL BAHYA",
+    "productContenance": "500",
+    "contentNumber": "1",
+    "keywords": "thé, the, the vert en filaments Al bahia,  شاي اخضر شعرة الباهية, اتاي, الشعرة, شاي الباهية شعرة, atay",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "createdAt": {
+      "seconds": 1663110000,
+      "nanoseconds": 361000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "k0V237RcK9KZxQR0xHmH"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":7,\"name\":\"سنتيليتر\",\"frName\":\"Centilitre\",\"abrev\":\"cl\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "مشروب غازي",
+    "productContenance": "50",
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F54491472.jpg?alt=media&token=c6af598b-5960-424f-b7b4-2396b5b1d118",
+    "frName": "Boisson gazeuze",
+    "keywords": "coca, cola coca cola, boisson gazeuze, كوكا, كولا, كوكاكولا",
+    "contentNumber": "1",
+    "barcode": "54491472",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Coca cola",
+    "createdAt": {
+      "seconds": 1663162565,
+      "nanoseconds": 964000000
+    },
+    "sourceProductId": "lWLPbEzHXWa0Pg1kzkdi"
+  },
+  {
+    "createdAt": {
+      "seconds": 1663164845,
+      "nanoseconds": 248000000
+    },
+    "frName": "Lait en Poudre Fortifié",
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "keywords": "Lait en Poudre Fortifié, lait en poudre, nido,حليب مجفف مدعم ، مسحوق حليب ، نيدو ،",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "productContenance": "2.5",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Nestlé",
+    "hasBarcode": true,
+    "name": "حليب نيدو مدعم",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111018903031.jpg?alt=media&token=b54f3970-2cf6-4a39-87a8-ba6f380099d5",
+    "barcode": "6111018903031",
+    "sourceProductId": "dI7duHBNTgWMLLKqBgG0"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111024002414.jpg?alt=media&token=6b98aeff-7406-4b29-ae56-1a0f80bf8966",
+    "keywords": "Huile d'Olive Vierge Courante, olivier, زيت الزيتون البكر ، شجرة الزيتون ،",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "barcode": "6111024002414",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "brand": "Mabrouka",
+    "createdAt": {
+      "seconds": 1663164951,
+      "nanoseconds": 68000000
+    },
+    "frName": "Huile d'Olive",
+    "name": " زيت الزيتون ",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "hasBarcode": true,
+    "productContenance": "1",
+    "sourceProductId": "l01duI7PFXV6iTPWcehh"
+  },
+  {
+    "hasBarcode": true,
+    "contentNumber": "10",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111031004333.jpg?alt=media&token=d293fa29-1c1e-4891-b79c-2e62ece913ae",
+    "productContenance": "57",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111031004333",
+    "frName": "Biscuits",
+    "name": "بسكويت",
+    "keywords": "Biscuits Oreo Original, biscuits,بسكويت أوريو الأصلي",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "createdAt": {
+      "seconds": 1663165082,
+      "nanoseconds": 335000000
+    },
+    "brand": "Oreo",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":9,\"name\":\"علبة\",\"frName\":\"Boite\"}",
+    "sourceProductId": "o4bAgZVjiNKjZyxV0SaB"
+  },
+  {
+    "createdAt": {
+      "seconds": 1663165224,
+      "nanoseconds": 258000000
+    },
+    "keywords": "Raibi Jamila, produit laitière, raibi, raybi;رايبي جميلة ، منتجات الحليب رايبي,",
+    "brand": "Danone",
+    "contentNumber": "1",
+    "frName": "Raibi Jamila",
+    "hasBarcode": true,
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111032006619",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "productContenance": "170",
+    "name": "رايبي  جميلة ",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111032006619.jpg?alt=media&token=f98c42a9-d92f-43d1-9204-bd3a8d292a08",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "cfs501K5FTkedVt12oEQ"
+  },
+  {
+    "keywords": "Lait UHT Entier, lait en carton, lait langue durée,حليب كامل معقم ، حليب كرتون ، حليب طويل الأمد ،",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663165414,
+      "nanoseconds": 980000000
+    },
+    "frName": "Lait UHT Entier",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "productContenance": "1",
+    "name": "حليب كامل",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111032008088.jpg?alt=media&token=be4fde8a-f88e-4a4f-80b3-1d7c6a204b35",
+    "brand": "Gervais",
+    "contentNumber": "1",
+    "barcode": "6111032008088",
+    "sourceProductId": "6ZX7eqKZdqHzqPuEmFCs"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": "فروماج بالكريمة",
+    "contentNumber": "24",
+    "barcode": "6111032008378",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":9,\"name\":\"علبة\",\"frName\":\"Boite\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Fromage Fondu à la crème",
+    "createdAt": {
+      "seconds": 1663165630,
+      "nanoseconds": 798000000
+    },
+    "hasBarcode": true,
+    "brand": "Gervais",
+    "productContenance": "384",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111032008378.jpg?alt=media&token=72974b71-888e-486b-9900-70ea07df758e",
+    "keywords": "Fromage Fondu à la crème, fromage en portions,فروماج بالكريمة, فروماج أجزاء",
+    "sourceProductId": "Wdd5knx6dBTVI1JzZHV9"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "keywords": "Thé Vert en Grains Ambar, the vert, the ambar, el ambar, the anbar,الشاي الأخضر  حبوب العنبر ، الشاي الأخضر ، العنبر ، atay",
+    "createdAt": {
+      "seconds": 1663166356,
+      "nanoseconds": 993000000
+    },
+    "hasBarcode": true,
+    "name": " شاي أخضر عنبر",
+    "barcode": "6111069004855",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111069004855.jpg?alt=media&token=819e3080-0e85-4625-ac71-91b574e0ba7d",
+    "contentNumber": "1",
+    "productContenance": "200",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Thé Vert en Grains Ambar",
+    "brand": "Sultan",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "sourceProductId": "tzBr1K028QKHkN3nCONA"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "createdAt": {
+      "seconds": 1663166685,
+      "nanoseconds": 597000000
+    },
+    "name": "ياغورت جنان بنكهة الفانيليا",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111126001681.jpg?alt=media&token=289c33d0-e20b-4c37-b295-915a0a7fe74d",
+    "productContenance": "110",
+    "brand": "Chergui",
+    "frName": "Yaourt Ferme Jnane à l'Arôme Vanille",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111126001681",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Yaourt Ferme Jnane à l'Arôme Vanille, yaourt vanille, yaourt chergui vanille,ياغورت جنان بنكهة الفانيليا, زبادي جنان بنكهة الفانيليا ، زبادي الفانيليا ، زبادي الفانيليا الشركي ،",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "contentNumber": "1",
+    "sourceProductId": "quFDz9IVgRIanCfUIv8s"
+  },
+  {
+    "name": "ياغورت جنان بنكهة  الفراولة",
+    "frName": "Yaourt Ferme Jnane à l'Arôme Fraise",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111126001698.jpg?alt=media&token=90b71b7b-7547-425c-94c5-382d0dfdb9a5",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663166775,
+      "nanoseconds": 476000000
+    },
+    "productContenance": "110",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "brand": "Chergui",
+    "contentNumber": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111126001698",
+    "keywords": "Yaourt Ferme Jnane à l'Arôme Fraise, yaourt fraise, yaourt chergui fraise,ياغورت جنان بنكهة  الفراولة, زبادي الفراولة ، زبادي فراولة ، ياغورت فراولة الشركي ،نكهة الفريز,  التوت,",
+    "sourceProductId": "92SE79aSUpQbuYiSdS1o"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "hasBarcode": true,
+    "brand": "Joly",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111162001102.jpg?alt=media&token=48ae53cc-aa8a-4c3e-8384-e09568cea110",
+    "frName": "Thon Entier à l'Huile Végétale",
+    "keywords": "Thon Entier à l'Huile Végétale, ton, ton joly, thon joly, تونة بالزيت النباتي  ، جولي ، التونة ،",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "barcode": "6111162001102",
+    "name": "طون بالزيت النباتي",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "productContenance": "85",
+    "contentNumber": "3",
+    "createdAt": {
+      "seconds": 1663166954,
+      "nanoseconds": 316000000
+    },
+    "sourceProductId": "K4nSjySJ1syACehAkoxE"
+  },
+  {
+    "barcode": "6111184001098",
+    "productContenance": "430",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111184001098.jpg?alt=media&token=1d3be74f-ccdb-4e63-9758-e59afa4eb80e",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663167198,
+      "nanoseconds": 104000000
+    },
+    "brand": "El Baraka",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "frName": "Confiture De Figues",
+    "name": "مربى التين",
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "keywords": "Confiture De Figues, el baraka, albaraka, confiture al baraka,مربى ,التين ، البركة ، مربى البركة ، الكرموص, كوفيتير",
+    "sourceProductId": "O9NgfwHK5zwgHl2zHdhg"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "barcode": "6111184001180",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "hasBarcode": true,
+    "brand": "El Baraka",
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111184001180.jpg?alt=media&token=c8bfaf81-53d1-4ab0-9e09-f250705c022f",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "createdAt": {
+      "seconds": 1663171940,
+      "nanoseconds": 262000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "keywords": "Confiture De Fraises, el baraka, albaraka, confiture al baraka,مربى الفراولة ، البركة ، مربى البركة ، كوفيتير, كوفيتير الفريز, التوت,",
+    "productContenance": "430",
+    "name": "مربى الفراولة",
+    "frName": "Confiture De Fraises",
+    "sourceProductId": "TsN3RCkIKHF7lw9zzSFa"
+  },
+  {
+    "barcode": "6111206000733",
+    "keywords": "Fromage Jben 100% Frais Tartine et Cuisine, fromage jebli, patte a tartiné,فروماج جبن 100٪ للدهن و الطبخ, جبنة  طازجة 100٪, جبلي,",
+    "frName": "Fromage Jben 100% Frais Tartine et Cuisine",
+    "productContenance": "200",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111206000733.jpg?alt=media&token=de9ff2b0-350e-436f-8373-39f2e5a37547",
+    "brand": "Centrale",
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663172169,
+      "nanoseconds": 711000000
+    },
+    "name": "فروماج جبن 100٪ للدهن و الطبخ",
+    "sourceProductId": "y3vjptCy7qUQI6GBqIaA"
+  },
+  {
+    "createdAt": {
+      "seconds": 1663172841,
+      "nanoseconds": 472000000
+    },
+    "keywords": "Café Soluble Capriccio, cafe dubois, cafe capriccio,قهوة سريعة التحضير كابريتشيو, قهوة سريعة,",
+    "brand": "Dubois",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111207000527.jpg?alt=media&token=83312560-2ee7-409e-9b5f-c35f73359199",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "contentNumber": "1",
+    "frName": "Café Soluble Capriccio",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111207000527",
+    "hasBarcode": true,
+    "name": "قهوة سريعة التحضير كابريتشيو",
+    "productContenance": "50",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "sourceProductId": "BCNPVSvFCN9v7SwFxPQN"
+  },
+  {
+    "frName": "Sacs de Poubelle",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "keywords": "Sacs de Poubelle, sac en plastique, sac pour poubelle,أكياس القمامة ، كيس من البلاستيك ، كيس قمامة ،",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "name": "أكياس بلاستيكية للقمامة",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "10",
+    "brand": "Folia",
+    "productContenance": "50",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111231001651.jpg?alt=media&token=889fea5a-36eb-42b5-9367-1154553b0a47",
+    "barcode": "6111231001651",
+    "createdAt": {
+      "seconds": 1663172948,
+      "nanoseconds": 794000000
+    },
+    "sourceProductId": "pmTQcTxsl4HAz5xnlGwj"
+  },
+  {
+    "barcode": "6111232002992",
+    "name": "قهوة مطحونة",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111232002992.jpg?alt=media&token=b9a23ee6-a905-4a8f-8230-f70e41252396",
+    "hasBarcode": true,
+    "brand": "Asta",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "productContenance": "200",
+    "createdAt": {
+      "seconds": 1663173056,
+      "nanoseconds": 709000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "keywords": "Café Moulu Force Corsé, cafe en poudre, cafe asta,قهوة مطحونة ، مسحوق قهوة ، قهوة أستا ،",
+    "frName": "Café Moulu Force Corsé",
+    "sourceProductId": "hmdWbmWDy6LhWIJCoSRE"
+  },
+  {
+    "createdAt": {
+      "seconds": 1663173191,
+      "nanoseconds": 732000000
+    },
+    "name": "حليب كامل",
+    "hasBarcode": true,
+    "barcode": "6111242100220",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Jaouda",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242100220.jpg?alt=media&token=2677b625-ce5e-4fc2-98e3-55ba83f0f5d8",
+    "frName": "Lait Uht Entier",
+    "keywords": "Lait Uht Entier, lait en carton, lait langue durée,حليب كامل الدسم ، حليب كرتون ، حليب طويل الأمد ،",
+    "productContenance": "500",
+    "sourceProductId": "9NXcZKTM9Fwy0XH9noqU"
+  },
+  {
+    "name": "ياغورت كراميل",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "productContenance": "85",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242102569.jpg?alt=media&token=d55fae49-fa58-4d25-9fd4-4a9a95eb340c",
+    "brand": "Jaouda",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Dessert Gourmand Caramel",
+    "createdAt": {
+      "seconds": 1663173292,
+      "nanoseconds": 147000000
+    },
+    "barcode": "6111242102569",
+    "contentNumber": "1",
+    "keywords": "Dessert Gourmand Caramel, yaourt caramel, yaourt jaouda,ياغورت  كراميل ، زبادي كراميل ، ياغورت جودة ،",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "lJhAoeLJlhg48gswizyK"
+  },
+  {
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242102781.jpg?alt=media&token=0d00270c-c918-4b4c-9da9-b6e3f1bcfeda",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "barcode": "6111242102781",
+    "productContenance": "110",
+    "contentNumber": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "frName": "Le Yaourt Tendre Nature Sucre",
+    "name": "ياغورت ناعم بالسكر",
+    "keywords": "Le Yaourt Tendre Nature Sucre, yaourt jaouda, yaourt naturel,ياغورت ناعم بالسكر,  زبادي ، ياغورت جودة ، ياغورت طبيعي ،",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "brand": "Jaouda",
+    "createdAt": {
+      "seconds": 1663173406,
+      "nanoseconds": 623000000
+    },
+    "sourceProductId": "8CMgQXGbkZtOBOqq0LkO"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Perly Fromage Frais Façon Tarte aux Fraises, perly jaouda, yaourt perly,فروماج بكريمة فراولة, التوت, بيرلي ، بيرلي جودة ، ياغورت,",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242103443.jpg?alt=media&token=6f769669-4a45-486b-8f1f-373d547307ae",
+    "hasBarcode": true,
+    "frName": "Perly Fromage Frais Façon Tarte aux Fraises",
+    "productContenance": "85",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "barcode": "6111242103443",
+    "createdAt": {
+      "seconds": 1663173509,
+      "nanoseconds": 374000000
+    },
+    "name": "فروماج بكريمة فراولة",
+    "brand": "Jaouda",
+    "contentNumber": "1",
+    "sourceProductId": "JBjZxFqhdWcMuvPQUClt"
+  },
+  {
+    "frName": "Yaourt Grec Poire Vanille",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242103696.jpg?alt=media&token=5c7abca6-46eb-4887-88a3-26ad0b6fa25f",
+    "createdAt": {
+      "seconds": 1663173604,
+      "nanoseconds": 283000000
+    },
+    "productContenance": "110",
+    "hasBarcode": true,
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "barcode": "6111242103696",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": "ياغورت كريس نكهة الفانيلا ",
+    "brand": "Jaouda",
+    "keywords": "Yaourt Grec Poire Vanille, jaouda, ياغورت كريس نكهة الفانيلا , زبادي  بالفانيليا  ، ياغورت جودة ،",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "k4QPiRVqSar6lfCiCImB"
+  },
+  {
+    "name": "كريمة طبخ سائلة",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "Jaouda",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242104617.jpg?alt=media&token=deae3068-6e6e-41b9-8f07-6c907630a963",
+    "frName": "Crème Cuisson Liquide Légère",
+    "createdAt": {
+      "seconds": 1663173725,
+      "nanoseconds": 10000000
+    },
+    "hasBarcode": true,
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "keywords": "Crème Cuisson Liquide Légère, crème jaouda,كريمة للطبخ  سائلة, خفيفة ، كريمة جودة ،",
+    "productContenance": "500",
+    "contentNumber": "1",
+    "barcode": "6111242104617",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "sourceProductId": "MUEFpEomsWIaamzfN9RZ"
+  },
+  {
+    "productContenance": "200",
+    "barcode": "6111242105331",
+    "brand": "Jaouda",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242105331.jpg?alt=media&token=531b3e74-560d-48e5-ab42-2ac9ffd193a1",
+    "contentNumber": "1",
+    "name": "زبدة غير مملحة ومبسترة",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "createdAt": {
+      "seconds": 1663173965,
+      "nanoseconds": 747000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "keywords": "Beurre Doux Pasteurisé, beurre jaouda,زبدة مبسترة غير مملحة ، زبدة جودة ،",
+    "frName": "Beurre Doux Pasteurisé",
+    "hasBarcode": true,
+    "sourceProductId": "mLnSAyYuMB9eBCuWqZhi"
+  },
+  {
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242105638.jpg?alt=media&token=b998e6e3-861b-41de-bfd1-a0b3c158710f",
+    "brand": "Jaouda",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "contentNumber": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663174041,
+      "nanoseconds": 954000000
+    },
+    "barcode": "6111242105638",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "productContenance": "1",
+    "name": "حليب كامل الدسم خالي من اللاكتوز",
+    "keywords": "Lait Uht Entier Sans Lactose, lait en carton, lait langue durée, lait jaouda,حليب كامل الدسم خالٍ من اللاكتوز ، حليب كرتون ، حليب طويل الأمد ، حليب جودة ،",
+    "frName": "Lait Uht Entier Sans Lactose",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "sourceProductId": "26kN1X6WpyviP4LSMbmq"
+  },
+  {
+    "hasBarcode": true,
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663174119,
+      "nanoseconds": 558000000
+    },
+    "brand": "Jaouda",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": " حليب كامل الدسم أوميجا 3",
+    "contentNumber": "1",
+    "barcode": "6111242105645",
+    "keywords": "Lait UHT Entier Oméga 3, lait en carton, lait langue durée, lait jaouda,حليب أوميغا 3 كامل الدسم ، حليب طويل الأمد ، حليب جودة ،",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Lait UHT Entier Oméga 3",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "productContenance": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242105645.jpg?alt=media&token=61cc5546-8467-4366-bada-7a896f43c0b2",
+    "sourceProductId": "f485F8yM89sbNYoVd4sj"
+  },
+  {
+    "name": "حلوى بالليمون",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242106796.jpg?alt=media&token=b7023390-5e94-45c0-b506-45e418d6b078",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "barcode": "6111242106796",
+    "brand": "Jaouda",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "contentNumber": "1",
+    "keywords": "Tarte Au Citron Délicimo, tarte jaouda,حلوى بالليمون, جودة, طارط,",
+    "productContenance": "100",
+    "createdAt": {
+      "seconds": 1663174403,
+      "nanoseconds": 821000000
+    },
+    "frName": "Tarte Au Citron Délicimo",
+    "sourceProductId": "5TguzV4S7baviwLkLgJP"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "brand": "Jaouda",
+    "barcode": "6111242106963",
+    "frName": "Filet Coupelles Beurre Frais Pasteurisé",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "productContenance": "10",
+    "hasBarcode": true,
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "10",
+    "keywords": "Filet Coupelles Beurre Frais Pasteurisé, beurre jaouda, beurre en coupelle,زبدة طازجة مبستر ، زبدة جودة ، زبدة في علب ،",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "زبدة طرية مبستر",
+    "createdAt": {
+      "seconds": 1663174554,
+      "nanoseconds": 898000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242106963.jpg?alt=media&token=136f7541-b660-4174-9984-c575c0b40104",
+    "sourceProductId": "POuBbnaG7wq2nkq7uhpd"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Jaouda",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "createdAt": {
+      "seconds": 1663174633,
+      "nanoseconds": 317000000
+    },
+    "name": "حليب كامل الدسم خالي من اللاكتوز",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242107441.jpg?alt=media&token=3fa469ca-c95c-4f3b-8683-3a2bcff875d4",
+    "barcode": "6111242107441",
+    "keywords": "Lait Uht Entier Sans Lactose, lait en carton, lait langue durée, lait jaouda,حليب كامل الدسم خالٍ من اللاكتوز ، حليب طويل الأمد ، حليب جودة ،",
+    "productContenance": "500",
+    "frName": "Lait Uht Entier Sans Lactose",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "sourceProductId": "JEKFK6pNwyHv0uy8us3j"
+  },
+  {
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "barcode": "6111242108813",
+    "brand": "Jaouda",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663174713,
+      "nanoseconds": 988000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "keywords": "Nectar UHT Raisins Rouges Press'Up, nectar jaouda,نكتار عصير عنب أحمر,  عصير عنب أحمر جودة,",
+    "frName": "Nectar UHT Raisins Rouges Press'Up",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "productContenance": "1",
+    "name": "نكتار عصير عنب أحمر",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242108813.jpg?alt=media&token=0be1eff6-2c9b-43ab-a579-2ac4496779ab",
+    "sourceProductId": "UyT6NO5cfHlX1oW5fRmB"
+  },
+  {
+    "keywords": "Cumin Moulu, cumin rosana,كمون مطحون ، كمون روزانا،",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "barcode": "6111242540361",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Cumin Moulu",
+    "createdAt": {
+      "seconds": 1663174800,
+      "nanoseconds": 672000000
+    },
+    "contentNumber": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "productContenance": "250",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242540361.jpg?alt=media&token=7a3a1a58-8ed1-4bab-be73-119bda79f038",
+    "name": "كمون مطحون",
+    "brand": "Rosana",
+    "hasBarcode": true,
+    "sourceProductId": "KhM6GFMlMhEvE86O3Wh6"
+  },
+  {
+    "contentNumber": "1",
+    "hasBarcode": true,
+    "keywords": "Coco Rapé, rosanaكوكو, جوز الهند المبشور, روزانا,",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "productContenance": "500",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242540590.jpg?alt=media&token=72f42a74-daab-4e02-a7cc-c070d80f6647",
+    "barcode": "6111242540590",
+    "name": "جوز الهند المبشور",
+    "frName": "Coco Rapé",
+    "brand": "Rosana",
+    "createdAt": {
+      "seconds": 1663174882,
+      "nanoseconds": 665000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "KlmeQXwNCLFolWGXYLWI"
+  },
+  {
+    "hasBarcode": true,
+    "brand": "Rosana",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "productContenance": "250",
+    "keywords": "Pruneaux Secs, pruneaux rosana, prunnes sec, prunnes sec rosana,برقوق مجفف, برقوق مجفف روزانا,",
+    "contentNumber": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "name": "برقوق مجفف",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242540804.jpg?alt=media&token=49b7271a-3de8-4c7b-855a-2ea9d8c63d50",
+    "frName": "Pruneaux Secs",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663174944,
+      "nanoseconds": 138000000
+    },
+    "barcode": "6111242540804",
+    "sourceProductId": "bVRdLWopNRmO2vCTsPy1"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Badaouia",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242660373.jpg?alt=media&token=b4df6f51-a579-438f-9eac-7fcfd5e80632",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "hasBarcode": true,
+    "barcode": "6111242660373",
+    "productContenance": "200",
+    "keywords": "Beurre Pasteurisé, beurre badaouia,زبدة مبستر ، زبدة بدوية ،",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "name": "زبدة مبستر",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663175018,
+      "nanoseconds": 994000000
+    },
+    "frName": "Beurre Pasteurisé",
+    "sourceProductId": "XfQEFBgc87p42A9AWJkM"
+  },
+  {
+    "brand": "Badaouia",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242661714.jpg?alt=media&token=b62b01a8-e5c8-4947-bb6a-4ba7f48a2c37",
+    "name": "زبدة خفيفة مبسترة",
+    "frName": "Beurre Allégé Pasteurisé",
+    "productContenance": "200",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663175157,
+      "nanoseconds": 647000000
+    },
+    "contentNumber": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "barcode": "6111242661714",
+    "hasBarcode": true,
+    "keywords": "Beurre Allégé Pasteurisé, beurre badaouia,زبدة خفيفة مبستر ، زبدة بدوية ،",
+    "sourceProductId": "2E18sXUIvH252wyd9suL"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663175230,
+      "nanoseconds": 376000000
+    },
+    "barcode": "6111242680012",
+    "keywords": "Riz Semi Long Blanc, riz cigala, أرز أبيض نصف طويل ، أرز سيغالا ،",
+    "hasBarcode": true,
+    "frName": "Riz Semi Long Blanc",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "name": "أرز أبيض نصف طويل",
+    "productContenance": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242680012.jpg?alt=media&token=632118c2-4fda-493f-859e-95df449f868d",
+    "contentNumber": "1",
+    "brand": "Cigala",
+    "sourceProductId": "cl9SfKhn6liE3oOEI8jo"
+  },
+  {
+    "name": "أرز طويل مقشر",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242680036.jpg?alt=media&token=a200e9bb-e10a-4e36-be8f-f6ea13d83c75",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "hasBarcode": true,
+    "brand": "Cigala",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111242680036",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "createdAt": {
+      "seconds": 1663175356,
+      "nanoseconds": 99000000
+    },
+    "frName": "Riz Long Blanchi",
+    "productContenance": "1",
+    "keywords": "Riz Long Blanchi, riz cigala, أرز مقشر طويل ، أرز  سيغالا ،",
+    "contentNumber": "1",
+    "sourceProductId": "MUXYRtp9c3uY34hc0sNL"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242680128.jpg?alt=media&token=6943c99f-b443-4f2a-ba1a-4d4dfcc2730a",
+    "productContenance": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "brand": "Cigala",
+    "keywords": "Riz Rond, riz cigala, أرز دائري ، أرز سيغالا ،",
+    "frName": "Riz Rond",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "name": "أرز دائري",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "hasBarcode": true,
+    "barcode": "6111242680128",
+    "createdAt": {
+      "seconds": 1663175413,
+      "nanoseconds": 374000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "sourceProductId": "pyScuv0a07rHNW1PSnfM"
+  },
+  {
+    "productContenance": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "name": "أرز أصفر مسلوق",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242680333.jpg?alt=media&token=5de8393d-f8ec-47ae-83e9-7d9666933b27",
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1663175483,
+      "nanoseconds": 572000000
+    },
+    "barcode": "6111242680333",
+    "contentNumber": "1",
+    "brand": "Cigala",
+    "frName": "Riz Jaune Etuvé",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "keywords": "Riz Jaune Etuvé, riz cigala, أرز أصفر مسلوق ، أرز سيغالا ،",
+    "sourceProductId": "rZXhGL0eztuwUiKtAczM"
+  },
+  {
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "productContenance": "1",
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "hasBarcode": true,
+    "barcode": "6111242680760",
+    "frName": "Riz Basmati",
+    "createdAt": {
+      "seconds": 1663175543,
+      "nanoseconds": 202000000
+    },
+    "keywords": "Riz Basmati, riz cigala, أرز بسمتي ، أرز سيغالا ،",
+    "brand": "Cigala",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242680760.jpg?alt=media&token=a185607a-5693-4c33-84c7-14d81b0d7c5d",
+    "name": "أرز بسمتي",
+    "sourceProductId": "9QqBD4MbB6EY6g4z3xvc"
+  },
+  {
+    "frName": "Miel Toutes Fleurs",
+    "productContenance": "450",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242850064.jpg?alt=media&token=5a4e8b37-34f4-4096-a199-130c4a9b866c",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "keywords": "Miel Toutes Fleurs, miel zemzami, zamzami,عسل جميع الزهور ، عسل الزمزمي ، زمزمي ،",
+    "createdAt": {
+      "seconds": 1663175630,
+      "nanoseconds": 235000000
+    },
+    "barcode": "6111242850064",
+    "hasBarcode": true,
+    "name": "عسل جميع الزهور",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Zemzami",
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "sourceProductId": "E5qvSuYyX3dCSlNIRTKR"
+  },
+  {
+    "brand": "Zemzami",
+    "keywords": "Miel Toutes Fleurs, miel zemzami, zamzami,عسل جميع الزهور ، عسل الزمزمي ، زمزمي ،",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242850071.jpg?alt=media&token=1b9468a4-0921-4b25-a08a-c9c52deba0b3",
+    "productContenance": "250",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "name": "عسل جميع الزهور",
+    "frName": "Miel Toutes Fleurs",
+    "barcode": "6111242850071",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "createdAt": {
+      "seconds": 1663175866,
+      "nanoseconds": 815000000
+    },
+    "sourceProductId": "mJqZAZOH474VrGiUVFsf"
+  },
+  {
+    "keywords": "Miel Toutes Fleurs, miel zemzami, zamzami,عسل جميع الزهور ، عسل الزمزمي ، زمزمي ،",
+    "hasBarcode": true,
+    "barcode": "6111242850323",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242850323.jpg?alt=media&token=45fdb0bc-486b-444c-8dfe-08785a2f6f90",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "عسل جميع الزهور",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":8,\"name\":\"حك\",\"frName\":\"Boite\"}",
+    "productContenance": "225",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663175973,
+      "nanoseconds": 190000000
+    },
+    "brand": "Zemzami",
+    "frName": "Miel Toutes Fleurs",
+    "sourceProductId": "uXjk265LIWVeAoogLCzr"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242850439.jpg?alt=media&token=075f41d6-1199-4c52-90cf-2bd0408dd99b",
+    "contentNumber": "1",
+    "keywords": "Miel Pur Petit ABI Squeezer, miel zemzami, zamzami,عسل نقي  النحلة الصغيرة, عسل نقي ، عسل زمزمي ، زمزمي ،",
+    "frName": "Miel Pur Petit ABI Squeezer",
+    "hasBarcode": true,
+    "brand": "Zemzami",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "عسل نقي  النحلة الصغيرة",
+    "productContenance": "350",
+    "barcode": "6111242850439",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "createdAt": {
+      "seconds": 1663176044,
+      "nanoseconds": 60000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "sourceProductId": "TR2XmReebTpW7fuu802Z"
+  },
+  {
+    "barcode": "6111242910027",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "brand": "Exet",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Nettoyant Sol Lavande Exet Maison, sanicroix, sanicroix lavande, sanicroix exet,منظف ​​الأرضيات بالخزامى, سانيكروى",
+    "createdAt": {
+      "seconds": 1663176246,
+      "nanoseconds": 853000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "frName": "Nettoyant Sol Lavande Exet Maison",
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "productContenance": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242910027.jpg?alt=media&token=52633bb5-2e3d-4ec0-85ec-fe6da9021b37",
+    "name": "منظف ​​الأرضيات عطر الخزامى",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "sourceProductId": "rk0heDZBK6fyD5jP6Uxp"
+  },
+  {
+    "name": "منظف ​​الأرضيات عطر الحامض",
+    "contentNumber": "1",
+    "frName": "Nettoyant Sol Citron Exet Maison",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242910041.jpg?alt=media&token=f54be936-9066-4c2d-9705-2f84efedb175",
+    "hasBarcode": true,
+    "productContenance": "1",
+    "brand": "Exet",
+    "keywords": "Nettoyant Sol Citron Exet Maison, sanicroix, sanicroix citron, sanicroix exet,منظف ​​الأرضيات بالليمون, سانيكروى،",
+    "barcode": "6111242910041",
+    "createdAt": {
+      "seconds": 1663176310,
+      "nanoseconds": 18000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "sourceProductId": "vn016JcOqmXtJ0615g2v"
+  },
+  {
+    "barcode": "6111242910195",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242910195.jpg?alt=media&token=544b8da9-190f-43cb-a249-1d5ad4bc95f4",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "frName": "Eau de Javel Original",
+    "brand": "Exet",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663179264,
+      "nanoseconds": 233000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "name": "جافيل",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "productContenance": "1",
+    "keywords": "Eau de Javel Original Exet, javel exet, اكسيت ، مبيض اكسيت, جافيل،",
+    "sourceProductId": "rLH2OWQzOdVJXEvodgwv"
+  },
+  {
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663179349,
+      "nanoseconds": 136000000
+    },
+    "brand": "Exet",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "barcode": "6111242910713",
+    "productContenance": "750",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242910713.jpg?alt=media&token=a7e0fcfe-5980-45d1-a87d-86c60d1f2cec",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Nettoyant Vitres et Multisurfaces Exet, منظف ​​الزجاج والأسطح المتعددة اكسيت،",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "name": "منظف ​​الزجاج والأسطح المتعددة",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "frName": "منظف ​​الزجاج والأسطح المتعددة",
+    "sourceProductId": "Lakd2eISyX2OtCuDev8M"
+  },
+  {
+    "name": "منظف ​​الأرضيات عطر الورد",
+    "productContenance": "1",
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "barcode": "6111242910782",
+    "keywords": "Nettoyant Sol Rose Exet Maison, sanicroix, sanicroix rose, sanicroix exet,منظف ​​الأرضيات عطر الورد ، سانكروا ، سانيكروى إكست ،",
+    "frName": "منظف ​​الأرضيات عطر الورد",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242910782.jpg?alt=media&token=f5e0b88c-38d0-46e3-8400-e01d189c8724",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "createdAt": {
+      "seconds": 1663179425,
+      "nanoseconds": 268000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Exet",
+    "sourceProductId": "j0PVKR5CrQFhIDnUU8AX"
+  },
+  {
+    "frName": "Nettoyant Sol Orange Exet Maison",
+    "barcode": "6111242911048",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "productContenance": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "keywords": "Nettoyant Sol Orange Exet Maison, sanicroix, sanicroix orange, sanicroix exet,منظف ​​الأرضيات عطر البرتقال, سانكروا ، سانيكروى إكست ،",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Exet",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "name": "منظف ​​الأرضيات عطر البرتقال",
+    "createdAt": {
+      "seconds": 1663179517,
+      "nanoseconds": 526000000
+    },
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242911048.jpg?alt=media&token=1daa29be-4e79-4634-9728-9a18f2309989",
+    "sourceProductId": "H9wgrBTPUHVUmqq3NnGk"
+  },
+  {
+    "brand": "Exet",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "name": "جافيل  بعطر الليمون",
+    "frName": "Eau de Javel Citron Exet",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "keywords": "Eau de Javel Citron Exet, blanchisseur en citron,جافيل إكسيت بالليمون ، جافيل الليمون ،",
+    "barcode": "6111242911239",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242911239.jpg?alt=media&token=f0487d14-8718-4615-aebc-9681d6be3b54",
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1663179592,
+      "nanoseconds": 204000000
+    },
+    "contentNumber": "1",
+    "productContenance": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "P8ooMzMzKc7bhc4GUQkr"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "productContenance": "2.5",
+    "brand": "Exet",
+    "name": "جافيل  بعطر الليمون",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "createdAt": {
+      "seconds": 1663179689,
+      "nanoseconds": 646000000
+    },
+    "keywords": "Eau de Javel Citron Exet, blanchisseur en citron,جافيل إكسيت بالليمون ، جافيل الليمون ،",
+    "hasBarcode": true,
+    "frName": "Eau de Javel Citron Exet",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":12,\"name\":\"بيدو\",\"frName\":\"Bidon\"}",
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242911277.jpg?alt=media&token=07a0e552-2eae-4539-ab23-f10f24baddad",
+    "barcode": "6111242911277",
+    "sourceProductId": "wzdDf9m6yNCMOFVp1VfW"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "productContenance": "2.5",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":12,\"name\":\"بيدو\",\"frName\":\"Bidon\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "brand": "Exet",
+    "name": "جافيل بعطر الخزامى",
+    "createdAt": {
+      "seconds": 1663179799,
+      "nanoseconds": 786000000
+    },
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "barcode": "6111242911284",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Eau de Javel Lavande Exet, blanchisseur en lavande,جافيل عطر الخزامى ، جافيل لافندر ،",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242911284.jpg?alt=media&token=97002011-bd39-43d1-b675-c28904f8681a",
+    "frName": "Eau de Javel Lavande Exet",
+    "sourceProductId": "fHXELxfn1y0Kg9SwdV76"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242920316.jpg?alt=media&token=2fa58752-cd0a-485d-a8f6-5229b50ee48e",
+    "name": "معجون التنظيف بعطر الليمون",
+    "hasBarcode": true,
+    "productContenance": "250",
+    "createdAt": {
+      "seconds": 1663180039,
+      "nanoseconds": 289000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "brand": "Magix",
+    "contentNumber": "1",
+    "frName": "Pate Nettoyante Citron",
+    "keywords": "Pate Nettoyante Citron Magix, lave veaisselle magix,معجون التنظيف عطر الليمون, معجون التنظيف ماجيكس بالليمون ، ماجيكس ،",
+    "barcode": "6111242920316",
+    "sourceProductId": "JbLUKfKwopv8gzSbGBXm"
+  },
+  {
+    "productContenance": "1",
+    "contentNumber": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "brand": "Maxis's",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242921542.jpg?alt=media&token=ef22a62b-b60f-424e-be88-2be43bb51aa5",
+    "barcode": "6111242921542",
+    "createdAt": {
+      "seconds": 1663180127,
+      "nanoseconds": 501000000
+    },
+    "frName": "Nettoyant Surfaces Senteur Lavande",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "name": "منظف ​​الأسطح بعطر الخزامى ",
+    "hasBarcode": true,
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "keywords": "Nettoyant Surfaces Senteur Lavande Maxis Maison, sanicroix, sanicroix lavande, sanicroix Maxis's,منظف ​​الأسطح عطر الخزامى من ماكسيس ميزون ، سانيكروا ، سانكروا الخزامى  ، سانيكروا ماكسيس ،",
+    "sourceProductId": "7iGqRpcCn7ggKfYIP5Nv"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "contentNumber": "1",
+    "frName": "Nettoyant Surfaces Citron",
+    "hasBarcode": true,
+    "name": "منظف ​​أسطح المنزل بعطر الليمون",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "brand": "Maxis's",
+    "barcode": "6111242921559",
+    "productContenance": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "createdAt": {
+      "seconds": 1663180197,
+      "nanoseconds": 258000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242921559.jpg?alt=media&token=f62457d9-01c4-40e3-b2ce-fe3180c654f2",
+    "keywords": "Nettoyant Surfaces Citron Maxis Maison, sanicroix, sanicroix citron, sanicroix Maxis's,منظف ​​الأسطح بالليمون ماكسيس ، سانيكروى، ليمون سانكروى ، سانيكروى ماكسيس ،",
+    "sourceProductId": "YxpLLtMQhCSKq4AknikI"
+  },
+  {
+    "frName": "Pate Nettoyante Lavande",
+    "keywords": "Pate Nettoyante Lavande Magix, lave veaisselle magix,معجون التنظيف ماجيكس بالخزامى ، غسالة أطباق ماجيكس ،",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "hasBarcode": true,
+    "name": "عجينة التنظيف  بعطر الخزامى",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "brand": "Magix",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242921702.jpg?alt=media&token=31b44717-0ad3-4e10-8286-1c7ec550e5b2",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "contentNumber": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "productContenance": "1",
+    "barcode": "6111242921702",
+    "createdAt": {
+      "seconds": 1663180273,
+      "nanoseconds": 830000000
+    },
+    "sourceProductId": "u4m3zu0hQOzBahW3Qtm2"
+  },
+  {
+    "hasBarcode": true,
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "productContenance": "1",
+    "brand": "Magix",
+    "name": "منظف ​​الأسطح بعطر ورد مكونة",
+    "contentNumber": "1",
+    "keywords": "Nettoyant Surfaces Senteur Roses Mgouna Maxis Maison, منظف ​​الأسطح ,عطر الورد مكونة, ماكسيس ميزون ،  سايكروى,",
+    "frName": "Nettoyant Surfaces Senteur Roses Mgouna",
+    "barcode": "6111242922143",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242922143.jpg?alt=media&token=a6a947b9-d7d2-4a22-b6fb-3d1bce15fb9e",
+    "createdAt": {
+      "seconds": 1663180506,
+      "nanoseconds": 395000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "sourceProductId": "jYA9jpbXAeoZuLDOixt2"
+  },
+  {
+    "barcode": "6111242922228",
+    "keywords": "Nettoyant Surfaces Senteur Oud Maxis Maison,منظف ​​الأسطح عطر العود ماكسيس ، سانيكروى",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "brand": "Maxis's",
+    "productContenance": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242922228.jpg?alt=media&token=bff175f8-960a-4220-b751-92eef5f20bd3",
+    "contentNumber": "1",
+    "name": "منظف ​​الأسطح بعطر العود",
+    "frName": "Nettoyant Surfaces Senteur Oud",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "createdAt": {
+      "seconds": 1663180635,
+      "nanoseconds": 737000000
+    },
+    "sourceProductId": "Gcjscdfg9iVCZmBoiDfF"
+  },
+  {
+    "barcode": "6111242922396",
+    "name": "سائل غسل الاواني  بعطر الاليوفيرا",
+    "productContenance": "750",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "createdAt": {
+      "seconds": 1663182738,
+      "nanoseconds": 562000000
+    },
+    "keywords": "Liquide Vaisselle Aloe Vera Maxis, lave vaisselle en aloe vera,سائل غسل الاواني  عطر  الاليوفيرا, منظف",
+    "frName": "Liquide Vaisselle Aloe Vera",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "brand": "Maxis's",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "img_src": null,
+    "hasBarcode": true,
+    "sourceProductId": "yHtkgdJvyPhfSvjBS440"
+  },
+  {
+    "contentNumber": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923126.jpg?alt=media&token=3de49117-6e7f-43c0-a707-d6a2adf4f96c",
+    "createdAt": {
+      "seconds": 1663182983,
+      "nanoseconds": 286000000
+    },
+    "keywords": "Liquide Vaisselle Citron Maxis, lave vaisselle en cotron,سائل غسل الاواني  عطرالليمون, منظف",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "barcode": "6111242923126",
+    "brand": "Magix",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "productContenance": "1.25",
+    "frName": "Liquide Vaisselle Citron",
+    "name": "سائل غسل الاواني  بعطر  الليمون",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "sourceProductId": "WHy624SldtBJcsqsbJTK"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923577.jpg?alt=media&token=99a3b0d8-bec7-4531-89a7-76401efdb9d0",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "keywords": "Jus d'Orange 100% Pur, jus d'orange marrakech,عصير برتقال نقي 100٪ ، عصير برتقال مراكش ،",
+    "barcode": "6111242923577",
+    "productContenance": "1",
+    "name": "عصير برتقال نقي ٪ 100 ",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "Marrakech",
+    "contentNumber": "1",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "createdAt": {
+      "seconds": 1663184307,
+      "nanoseconds": 893000000
+    },
+    "frName": "Jus d'Orange 100% Pur ",
+    "sourceProductId": "IETKhAWSfXDFFyjkEoDn"
+  },
+  {
+    "createdAt": {
+      "seconds": 1663184425,
+      "nanoseconds": 130000000
+    },
+    "keywords": "Jus de Nectar Orange & Mandarine, marrakech,عصير البرتقال والماندرين ، مراكش ،",
+    "contentNumber": "1",
+    "barcode": "6111242923621",
+    "hasBarcode": true,
+    "frName": "Jus de Nectar Orange & Mandarine",
+    "productContenance": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "brand": "Marrakech",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923621.jpg?alt=media&token=d3f925bd-03a1-4ef8-a8e7-d587665bfc40",
+    "name": "عصير البرتقال والماندرين",
+    "sourceProductId": "ImiLbHkcIRl9yAj1jfc0"
+  },
+  {
+    "keywords": "Jus de Citronnade à l'Ancienne, marrakech,عصير ليمون، مراكش، عصير الليمون",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923638.jpg?alt=media&token=8b31edb2-2745-4965-9b05-062b9bcae645",
+    "frName": "Jus de Citronnade à l'Ancienne",
+    "hasBarcode": true,
+    "brand": "Marrakech",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "productContenance": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "name": "عصير ليمون",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663184566,
+      "nanoseconds": 852000000
+    },
+    "barcode": "6111242923638",
+    "sourceProductId": "0ss2ZBRJxpnbdC0aGCz0"
+  },
+  {
+    "brand": "Marrakech",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923652.jpg?alt=media&token=8f2bc549-6982-45a4-bcf8-032b5389674c",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "productContenance": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663184709,
+      "nanoseconds": 696000000
+    },
+    "name": "عصير المانجو",
+    "hasBarcode": true,
+    "contentNumber": "1",
+    "barcode": "6111242923652",
+    "keywords": "Jus de Mangue des Iles, marrakech,عصير مانجو, مراكش،",
+    "frName": "Jus de Mangue des Iles",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "sourceProductId": "LRNtpiVy0AZWH73rkMXY"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923669.jpg?alt=media&token=8d73c193-e662-4b30-89dd-97d6049e6c6a",
+    "productContenance": "1",
+    "createdAt": {
+      "seconds": 1663184836,
+      "nanoseconds": 394000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "frName": "Jus de Pêche de la Méditerranée",
+    "barcode": "6111242923669",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Marrakech",
+    "hasBarcode": true,
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "contentNumber": "1",
+    "name": "عصير خوخ تروبيكال",
+    "keywords": "Jus de Pêche de la Méditerranée, marrakech,عصير خوخ تروبيكال، مراكش،",
+    "sourceProductId": "S17JDUtSKCliNZAlFHs2"
+  },
+  {
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Jus Cocktail Tropical",
+    "name": "عصير كوكتيل تروبيكال",
+    "hasBarcode": true,
+    "productContenance": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Marrakech",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "createdAt": {
+      "seconds": 1663184910,
+      "nanoseconds": 283000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923676.jpg?alt=media&token=8cdabfca-dc1c-4e42-b7d1-4fa7e2240eaa",
+    "keywords": "Jus Cocktail Tropical, marrakech,عصير كوكتيل تروبيكال, عصير كوكتيل استوائي ، مراكش ،",
+    "barcode": "6111242923676",
+    "sourceProductId": "gHuSHSFk0f0TeYIVMzWR"
+  },
+  {
+    "contentNumber": "1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "productContenance": "1",
+    "barcode": "6111242923683",
+    "name": "عصير أناناس تروبيكال",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923683.jpg?alt=media&token=8c6cfad0-4f38-40ea-90fc-2d1eaaa9d0a2",
+    "brand": "Marrakech",
+    "createdAt": {
+      "seconds": 1663184977,
+      "nanoseconds": 877000000
+    },
+    "frName": "Jus d'Ananas des Tropiques",
+    "hasBarcode": true,
+    "keywords": "Jus d'Ananas des Tropiques, marrakech,عصير أناناس تروبيكال, عصير أناناس مراكش,",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "gb5HyYSSwkZOHrR3lmkg"
+  },
+  {
+    "name": "عصير نكتار برتقال وقرفة",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "createdAt": {
+      "seconds": 1663185050,
+      "nanoseconds": 861000000
+    },
+    "brand": "Marrakech",
+    "productContenance": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111242923690",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "hasBarcode": true,
+    "frName": "Jus de Nectar Orange & Cannelle",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923690.jpg?alt=media&token=f94c602c-d2c0-41e7-a58b-7e799641a9e0",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "keywords": "Jus de Nectar Orange & Cannelle, marrakech,عصير نكتار البرتقال والقرفة، مراكش،",
+    "sourceProductId": "GN2h506NRRZMHnxkAjty"
+  },
+  {
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1663185145,
+      "nanoseconds": 0
+    },
+    "name": "عصير نكتار البرتقال وزهر البرتقال",
+    "barcode": "6111242923706",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "frName": "Jus de Nectar Orange & Fleur d'Oranger",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923706.jpg?alt=media&token=e0846571-b25e-4af4-b536-5fc6e7eea5c1",
+    "contentNumber": "1",
+    "productContenance": "1",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "Marrakech",
+    "keywords": "Jus de Nectar Orange & Fleur d'Oranger, marrakech,عصير نكتار البرتقال وزهر البرتقال, نكتار البرتقال وعصير زهر البرتقال ، مراكش ،",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "P3KjA5txhFX5SSk8caIT"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245340333.jpg?alt=media&token=efabc496-286c-4301-8535-69c131ef0d0d",
+    "contentNumber": "1",
+    "frName": "Beurre doux en plaquette",
+    "productContenance": "200",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "brand": "Or Blanc",
+    "name": "زبدة غير مملحة",
+    "createdAt": {
+      "seconds": 1663185245,
+      "nanoseconds": 490000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "hasBarcode": true,
+    "keywords": "Beurre doux en plaquette, beurre or blanc,زبدة غير مملحة ، زبدة,",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "barcode": "6111245340333",
+    "sourceProductId": "4Sdt1v2CfEkzSPGWnv3M"
+  },
+  {
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245340364.jpg?alt=media&token=e7ce43ed-0cff-4fc9-a843-3115a95f052f",
+    "keywords": "Parmesan (Origine Italie), fromage parmesan,فروماج أصل إيطالي, جبن بارميزان (أصله إيطاليا) ، جبن بارميزان ،",
+    "contentNumber": "1",
+    "barcode": "6111245340364",
+    "name": "فروماج",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "productContenance": "200",
+    "createdAt": {
+      "seconds": 1663187429,
+      "nanoseconds": 356000000
+    },
+    "brand": "Or Blanc",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Parmesan (Origine Italie)",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "gCTvfKgsUwCYdHtgoZQB"
+  },
+  {
+    "hasBarcode": true,
+    "name": "ذرة ",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245340975.jpg?alt=media&token=51f1d822-be6e-49bf-9a38-0890bea8edcc",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "frName": "Maïs Doux en Grains",
+    "contentNumber": "3",
+    "barcode": "6111245340975",
+    "keywords": "Maïs Doux en Grains, mais pour salade, mais conserve, al khayrat,حبات الذرة محلات, ذرة حلوة  معلبة ,الخيرات ،",
+    "brand": "Al Khayrat",
+    "createdAt": {
+      "seconds": 1663187575,
+      "nanoseconds": 732000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "productContenance": "130",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "i5xS7kfkXGht5ZSjhMIM"
+  },
+  {
+    "brand": "President",
+    "barcode": "6111245341354",
+    "name": "شرائح فروماج همبرغر لايت",
+    "productContenance": "200",
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245341354.jpg?alt=media&token=520cf0e5-3697-48b7-a374-7603e34428c5",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "keywords": "Fromage Hamburger Light en Tranchettes, fromage président,شرائح جبنة همبرغر خفيفة, فروماج شرائح,",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Fromage Hamburger Light en Tranchettes",
+    "createdAt": {
+      "seconds": 1663187671,
+      "nanoseconds": 161000000
+    },
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "5eVpNrRsNwIHIUVJMup9"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "name": "فروماج ريكوتا",
+    "hasBarcode": true,
+    "keywords": "Fromage Ricotta, fromage or blanc,فروماج ريكوتا, جبنة ريكوتا ، جبنة بيضاء ،",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "productContenance": "250",
+    "brand": "Or Blanc",
+    "contentNumber": "1",
+    "frName": "Fromage Ricotta",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245341811.jpg?alt=media&token=f398323d-4ac7-43b4-883a-2624b03fbab6",
+    "createdAt": {
+      "seconds": 1663188499,
+      "nanoseconds": 831000000
+    },
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111245341811",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "0nBBgk5AC0dRtJ04ujb9"
+  },
+  {
+    "name": "صلصة الصويا الخفيفة الممتازة",
+    "keywords": "Sauce Soja Superior Light, sauce al khayrat,صلصة الصويا الخفيفة الممتازة, صلصة صويا لايت، صلصة الخيرات ، صوص الصوجا,",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "productContenance": "150",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663188591,
+      "nanoseconds": 579000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245343402.jpg?alt=media&token=742d52be-38b5-4007-9782-c46f32e7638a",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "hasBarcode": true,
+    "barcode": "6111245343402",
+    "brand": "Al Khayrat",
+    "frName": "Sauce Soja Superior Light",
+    "sourceProductId": "BRgQ2Na2MowLiknp8w2T"
+  },
+  {
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1663188682,
+      "nanoseconds": 201000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": "صلصة الصويا السوداء",
+    "barcode": "6111245343419",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "keywords": "Sauce Soja Dark, al khayrat,صلصة الصويا السوداء, صلصة الصويا الداكنة ، الخيرات ،",
+    "productContenance": "150",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "frName": "Sauce Soja Dark",
+    "brand": "Al Khayrat",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245343419.jpg?alt=media&token=dd799e7d-ddef-4aa5-a53e-54bbc2d13909",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "1",
+    "sourceProductId": "vAmrHdwPtYlLHtysBNdz"
+  },
+  {
+    "keywords": "Pain Charwarma libanais et Sandwich Sans Conservateur, pain pour chawarma, pain assylor,خبز شاوارما لبناني بدون مادة حافظة, خبز و سندويش شاوارما لبناني بدون مواد حافظة، خبز للشاوارما،",
+    "barcode": "6111245460062",
+    "contentNumber": "7",
+    "createdAt": {
+      "seconds": 1663188986,
+      "nanoseconds": 402000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245460062.jpg?alt=media&token=ec86ad7d-612b-40fb-ae0f-8f0679de580a",
+    "productContenance": "22",
+    "frName": "Pain Charwarma libanais et Sandwich Sans Conservateur",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"سنتيمتر\",\"frName\":\"Centimètre\",\"abrev\":\"cm\"}",
+    "name": "خبز شاوارما لبناني بدون مادة حافظة",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "Assylor",
+    "hasBarcode": true,
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ساشي\",\"frName\":\"Sachet\"}",
+    "sourceProductId": "N3Fc3SBtIRFfxxhxFPCG"
+  },
+  {
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "productContenance": "1",
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245460147.jpg?alt=media&token=e228e42f-e2bc-4ef1-a0ed-18ccd68565c5",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "frName": "Pate a Pizza",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "10",
+    "barcode": "6111245460147",
+    "brand": "Assylor",
+    "name": "عجينة بيتزا",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Pate a Pizza, pate assylor,عجينة بيتزا , ",
+    "createdAt": {
+      "seconds": 1663189228,
+      "nanoseconds": 805000000
+    },
+    "sourceProductId": "S3XboVGIgTWs0HelPYJl"
+  },
+  {
+    "keywords": "Pain de mie nature Maxi, pain assylor,خبز القمح الطبيعي ، خبز أصيلور ، khobz, khobz al 9amh",
+    "contentNumber": "1",
+    "barcode": "6111245460581",
+    "brand": "Assylor",
+    "productContenance": "480",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "frName": "Pain de mie nature Maxi",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245460581.jpg?alt=media&token=b21aaff4-462d-4de7-8461-a3e5bc595c71",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": "خبز القمح الطبيعي",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "createdAt": {
+      "seconds": 1663190254,
+      "nanoseconds": 156000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "s6k2yDUtw6rAgEDdyd5A"
+  },
+  {
+    "barcode": "6111245460598",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "frName": "Pain de mie complet Maxi",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245460598.jpg?alt=media&token=3bfd8f55-0541-420b-a5c1-e07b931983d8",
+    "keywords": "Pain de mie complet Maxi, pain assylor,خبز القمح الكامل ماكسي ، خبز أصيلور ، Khobz, pain en tranche, شرائح الخبز",
+    "productContenance": "480",
+    "brand": "Assylor",
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663190392,
+      "nanoseconds": 671000000
+    },
+    "name": "خبز القمح الكامل",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "mynaRqaPE3CW6lmQPBwJ"
+  },
+  {
+    "keywords": "Boulettes de sardine à la Sauce Tomate, concerve sardine, sardine carle,كرات السردين بصلصة الطماطم ، سردين كفتة معلب ، سردين كارلي ، Sardin kafta",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "contentNumber": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "hasBarcode": true,
+    "productContenance": "125",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Carle",
+    "createdAt": {
+      "seconds": 1663224545,
+      "nanoseconds": 464000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245501284.jpg?alt=media&token=2ef40834-ce81-42f1-b0c2-62dcf164f2f7",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":10,\"name\":\"بواطة\",\"frName\":\"Boite\"}",
+    "name": "كرات لحم السردين بصلصة طماطم",
+    "frName": "Boulettes de sardine à la Sauce Tomate",
+    "barcode": "6111245501284",
+    "sourceProductId": "RsxakIdoKCVrwSsv19VF"
+  },
+  {
+    "name": " ورق الحمام",
+    "hasBarcode": true,
+    "contentNumber": "12",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "frName": "Papiers Toilettes",
+    "productContenance": "1",
+    "keywords": "Papiers Toilettes, papier hygiénique, papier dalaa, ورق الحمام, ورق تواليت، ورق دلع، papier génique,",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245591278.jpg?alt=media&token=e54f9c1c-8a84-499d-a66e-fac7f3697c42",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Dalaa",
+    "barcode": "6111245591278",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"3\",\"name\":\"تجميل/نظافة شخصية\",\"frName\":\"\"}",
+    "createdAt": {
+      "seconds": 1663225143,
+      "nanoseconds": 394000000
+    },
+    "sourceProductId": "Jr1o63VApeQZd9Wjc8ub"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "productContenance": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111245710358.jpg?alt=media&token=e46552ea-d479-4a79-bd45-ce6c3fb4c8ee",
+    "name": "سميدة رقيقة من القمح الصلب",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"9\",\"name\":\"لوازم الحلويات\",\"frName\":\"Pâtisserie\"}",
+    "frName": "Semoule Fine de Blé Dur",
+    "hasBarcode": true,
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Maymouna",
+    "keywords": "Semoule Fine de Blé Dur, semoule de blé maymouna,سميد القمح الصلب الناعم ، سميدة ميمونة ، smida, smida rkika, r9i9a.",
+    "createdAt": {
+      "seconds": 1663225311,
+      "nanoseconds": 640000000
+    },
+    "contentNumber": "1",
+    "barcode": "6111245710358",
+    "sourceProductId": "9UnHsas8l1fEAHcl7n8v"
+  },
+  {
+    "keywords": "Sucre Cristalisé, sucre semoule, sukari,سانيدة, سكر حبيبات ، سكر ناعم ، سكري ، Sanida, sokkar",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "frName": "Sucre Cristalisé",
+    "productContenance": "1",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111248930135.jpg?alt=media&token=4ef42c7d-248e-4a8c-9128-a5414c163b42",
+    "barcode": "6111248930135",
+    "contentNumber": "1",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "name": "سانيدة",
+    "hasBarcode": true,
+    "brand": "Sukari",
+    "createdAt": {
+      "seconds": 1663226054,
+      "nanoseconds": 781000000
+    },
+    "sourceProductId": "SURWctzatx175PyzLZpM"
+  },
+  {
+    "brand": "Al itkane",
+    "createdAt": {
+      "seconds": 1663226231,
+      "nanoseconds": 998000000
+    },
+    "barcode": "6111249940164",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249940164.jpg?alt=media&token=7cfe49de-7c76-4312-a264-5e7f5b7ffac8",
+    "productContenance": "5",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "contentNumber": "1",
+    "name": "طحين النوارة",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":2,\"name\":\"خنشة\",\"frName\":\"Sac\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"9\",\"name\":\"لوازم الحلويات\",\"frName\":\"Pâtisserie\"}",
+    "keywords": "Farine Fleur, farine al itkane, poudre fleur,دقيق, فورص, الاتقان, force, thine, tahine, Da9i9, dgig,",
+    "frName": "Farine Fleur",
+    "sourceProductId": "EPGeJjdb3FFWAEFfzYSR"
+  },
+  {
+    "contentNumber": "1",
+    "createdAt": {
+      "seconds": 1663226355,
+      "nanoseconds": 689000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "frName": "Coquillettes",
+    "name": "مقرونية ",
+    "keywords": "Coquillettes, pâtes al itkane,مقرونية, معجنات, Ma9aroniya, makaronia,",
+    "brand": "Al itkane",
+    "productContenance": "500",
+    "barcode": "6111249941055",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249941055.jpg?alt=media&token=77a69682-236c-4145-b8e5-3e5d0d4a09e9",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "JRE5Sqb5hsEF8D1a8SRy"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249941130.jpg?alt=media&token=da2eccef-20dc-4e66-baa6-937966b7408a",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "contentNumber": "1",
+    "name": "مقرونية ",
+    "barcode": "6111249941130",
+    "createdAt": {
+      "seconds": 1663226470,
+      "nanoseconds": 752000000
+    },
+    "productContenance": "500",
+    "brand": "Al itkane",
+    "frName": "Penné",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "keywords": "Penné, pâtes al itkane,مقرونية, معجنات, ma9aroniya, makaronia, makaroniya, makaronya,",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "hasBarcode": true,
+    "sourceProductId": "NcdwZLit2ZUGJvHR9xSl"
+  },
+  {
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "hasBarcode": true,
+    "frName": "Coudes",
+    "brand": "Al itkane",
+    "contentNumber": "1",
+    "keywords": "Coudes, pâtes al itkane,مقرونية, معجنات, ma9aroniya, makarounia, makaronya, الاتقان, الإتقان",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "barcode": "6111249941642",
+    "createdAt": {
+      "seconds": 1663226643,
+      "nanoseconds": 978000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249941642.jpg?alt=media&token=3d6f71df-1d92-4688-baa3-6cfdbea62759",
+    "productContenance": "500",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "name": "مقرونية ",
+    "sourceProductId": "erDk8t6Z6ksswp23yitC"
+  },
+  {
+    "frName": "Farine Finot",
+    "name": "دقيق فينو",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "productContenance": "5",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663226794,
+      "nanoseconds": 137000000
+    },
+    "keywords": "Farine Finot, al itkane, دقيق فينو, , طحين, , طحين الفينو,الاتقان, الإتقان, fino, tahine, tahin, thin,",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":2,\"name\":\"خنشة\",\"frName\":\"Sac\"}",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Al itkane",
+    "barcode": "6111249941666",
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249941666.jpg?alt=media&token=35886e16-cd7d-4709-abce-875953d258f2",
+    "sourceProductId": "QSFuoMqs4o7Uwge3oenu"
+  },
+  {
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249941819.jpg?alt=media&token=2a14a3c7-7c56-4ed2-a0c3-7c66d745a052",
+    "hasBarcode": true,
+    "barcode": "6111249941819",
+    "contentNumber": "1",
+    "keywords": "Farine Complète De Blé Dur, farine al itkane,دقيق القمح الصلب الكامل, طحين, دقيق القمح الكامل الصلب, thin, Gmah, 9amh, Tahine, tahin",
+    "frName": "Farine Complète De Blé Dur",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "brand": "Al itkane",
+    "name": "دقيق القمح الكامل الصلب",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كيلو\",\"frName\":\"Kilogramme\",\"abrev\":\"Kg\"}",
+    "createdAt": {
+      "seconds": 1663226957,
+      "nanoseconds": 140000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":2,\"name\":\"خنشة\",\"frName\":\"Sac\"}",
+    "productContenance": "5",
+    "sourceProductId": "h3WlpsOveRlZgCavaWDN"
+  },
+  {
+    "brand": "Al itkane",
+    "productContenance": "500",
+    "barcode": "6111249942274",
+    "frName": "Spaghetti N°5",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "hasBarcode": true,
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111249942274.jpg?alt=media&token=df022fc1-d3a4-44df-b602-2564fbaf4b6c",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "سباكيتي",
+    "keywords": "Spaghetti N°5, pâtes al itkane,سباكيتي رقم 5, معجنات, الاتقان, الإتقان",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "createdAt": {
+      "seconds": 1663227068,
+      "nanoseconds": 178000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "contentNumber": "1",
+    "sourceProductId": "c9ZG3JzZo6Zok2Gecge8"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "productContenance": "500",
+    "frName": "Raisins Secs Nature",
+    "barcode": "6111250660310",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "name": "زبيب",
+    "createdAt": {
+      "seconds": 1663227292,
+      "nanoseconds": 745000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111250660310.jpg?alt=media&token=79293031-8905-430d-8f96-e7faf56565f0",
+    "keywords": "Raisins Secs Nature, raisins sec, raisin sec an-naim, annaim,زبيب, zbib, zabib, ezbib, ezzbib,",
+    "contentNumber": "1",
+    "brand": "An-Naim",
+    "sourceProductId": "NN8wWFHRZbhqEzrYunN4"
+  },
+  {
+    "contentNumber": "2",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111251420272",
+    "frName": "Eau Minérale Naturelle",
+    "keywords": "Eau Minérale Naturelle, ain ifrane, eau en bouteille, ماء معدني طبيعي, قارورة ماء, عين افران, ",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":12,\"name\":\"بيدو\",\"frName\":\"Bidon\"}",
+    "name": " ماء معدني طبيعي",
+    "brand": "Ain Ifrane",
+    "productContenance": "5",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111251420272.jpg?alt=media&token=03d9a143-159e-4253-abf5-cf92464ac46d",
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1663227409,
+      "nanoseconds": 569000000
+    },
+    "sourceProductId": "9lfncDaquw9hg0qhAvPb"
+  },
+  {
+    "name": "زينطيك",
+    "barcode": "6111251860382",
+    "keywords": "Gel insecticide, anti cafard, chasse cafard,مبيد للحشرات عجين,  المبيد الحشرات عجين, زن طق, زينطيك, سراق الزيت, ",
+    "frName": "Zentek",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":11,\"name\":\"وحدة\",\"frName\":\"Unité\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"7\",\"name\":\"صيانة و إصلاح\",\"frName\":\"Bricolage / réparation\"}",
+    "createdAt": {
+      "seconds": 1663228712,
+      "nanoseconds": 456000000
+    },
+    "contentNumber": "1",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111251860382.jpg?alt=media&token=91c65ac4-2e58-4458-8cee-3937c4ae550d",
+    "hasBarcode": true,
+    "brand": "ZenTek",
+    "productContenance": "20",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "sourceProductId": "4QIFy52rvgzk3iNW5yzh"
+  },
+  {
+    "name": "كوكيتو",
+    "frName": "Kekito Brownies",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "createdAt": {
+      "seconds": 1663229258,
+      "nanoseconds": 840000000
+    },
+    "keywords": "Kekito Brownies, chocolat,كيكيتو, شكلاط, bimo, ",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"8\",\"name\":\"سقاطة\",\"frName\":\"BonBon et biscuits\"}",
+    "brand": "Bimbo",
+    "productContenance": "248",
+    "contentNumber": "8",
+    "hasBarcode": true,
+    "barcode": "6111260960516",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111260960516.jpg?alt=media&token=443bd8a3-a815-4934-aa1a-ecd762bfc7b1",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "sourceProductId": "igWODuXjabN95KLXpvlp"
+  },
+  {
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "contentNumber": "20",
+    "hasBarcode": true,
+    "name": " شرائح خبز طازجة",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "frName": "Pain de Mie Nature Délicieusement Frais",
+    "keywords": "Pain de Mie Nature Délicieusement Frais, pain bimbo, pain tranché, شرائح خبز طازجة, طوسط,",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Bimbo",
+    "productContenance": "400",
+    "barcode": "6111260960615",
+    "createdAt": {
+      "seconds": 1663229435,
+      "nanoseconds": 307000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111260960615.jpg?alt=media&token=0a8831c4-84bc-409d-b123-ed05aa268875",
+    "sourceProductId": "x1ctROWBeOwxdL0u15TF"
+  },
+  {
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "barcode": "6111260960646",
+    "createdAt": {
+      "seconds": 1663229553,
+      "nanoseconds": 225000000
+    },
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111260960646.jpg?alt=media&token=7184dac5-bb57-4522-a049-2e8e9593cea4",
+    "name": " خبز شاوارما",
+    "contentNumber": "7",
+    "productContenance": "270",
+    "keywords": "Pain Chawarma Nature, pain bimbo, خبز شاورما, ",
+    "frName": "Pain Chawarma Nature",
+    "brand": "Bimbo",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "hasBarcode": true,
+    "sourceProductId": "9NYSyW8IbQr3Eo8YfPyR"
+  },
+  {
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111260960707.jpg?alt=media&token=4105bd08-ec23-48bf-b7c2-eeae4ab5ed0c",
+    "barcode": "6111260960707",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "productContenance": "300",
+    "hasBarcode": true,
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":1,\"name\":\"كارط\",\"frName\":\"Carte\"}",
+    "contentNumber": "7",
+    "keywords": "Pain Maxi Burger, pain bimbo,خبز ماكسي برجر, khobz, khoubz,",
+    "frName": "Pain Maxi Burger",
+    "name": "خبز ماكسي برجر",
+    "createdAt": {
+      "seconds": 1663229652,
+      "nanoseconds": 173000000
+    },
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "brand": "Bimbo",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "sourceProductId": "mR0SbIljL0nFDHjVaXQQ"
+  },
+  {
+    "productContenance": "220",
+    "frName": "Pains Hot Dog",
+    "barcode": "6111260960790",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "hasBarcode": true,
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"1\",\"name\":\"تغدية\",\"frName\":\"Alimentation\"}",
+    "createdAt": {
+      "seconds": 1663229802,
+      "nanoseconds": 879000000
+    },
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"غرام\",\"frName\":\"Gramme\",\"abrev\":\"g\"}",
+    "brand": "Bimbo",
+    "name": "خبز هوت دوج",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":4,\"name\":\"باكية\",\"frName\":\"Packet\"}",
+    "keywords": "Pains Hot Dog, pain bimbo,خبز هوت دوج, khoubz, khobz,",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111260960790.jpg?alt=media&token=fa851afb-5092-4b99-bd4c-28399c1cf7e2",
+    "contentNumber": "4",
+    "sourceProductId": "nVrJbh0EaTpxAItDXf8I"
+  },
+  {
+    "barcode": "8410128191702",
+    "productContenance": "188",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"8\",\"name\":\"سقاطة\",\"frName\":\"BonBon et biscuits\"}",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F8410128191702.jpg?alt=media&token=85ca4153-dbe1-4b2f-bfeb-498daa054f38",
+    "name": "حليب بنكهة الشوكولاتة",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":6,\"name\":\"ميليلتر\",\"frName\":\"Mililitre\",\"abrev\":\"ml\"}",
+    "contentNumber": "1",
+    "keywords": "Laits Aromatisés au Chocolat Energy ColaCao 188 ml, HALIB CHOKOLA, HLIB B CKLAT, إنيرجي كولا - حليب بنكهة الشوكولاتة, مشروب, الاطفال",
+    "hasBarcode": true,
+    "createdAt": {
+      "seconds": 1663230547,
+      "nanoseconds": 115000000
+    },
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "brand": "Cola Cao",
+    "frName": "Laits Aromatisés au Chocolat",
+    "sourceProductId": "EmYEbT31F4Bv22LUujrX"
+  },
+  {
+    "brand": "Maxis's",
+    "img_src": "https://firebasestorage.googleapis.com/v0/b/zamma-zamba.appspot.com/o/products%2F6111242923140.jpg?alt=media&token=542fd587-8f44-4103-97a1-68dfb946795d",
+    "contentUnit": "{\"__typename\":\"BigPackageNameType\",\"id\":0,\"name\":\"وحدة\",\"frName\":\"Unité\",\"abrev\":\"x\"}",
+    "packageName": "{\"__typename\":\"BigPackageNameType\",\"id\":3,\"name\":\"قرعة\",\"frName\":\"Bouteille\"}",
+    "hasBarcode": true,
+    "keywords": "Liquide Vaisselle Aloe Vera Maxis, lave vaisselle en aloe vera,سائل غسل الاواني بالألوفيرا,  سائل غسل الاواني عطر  بالألوفيرا",
+    "createdAt": {
+      "seconds": 1663234163,
+      "nanoseconds": 60000000
+    },
+    "barcode": "6111242923140",
+    "productContenance": "1.25",
+    "unit": "{\"__typename\":\"BigPackageNameType\",\"id\":5,\"name\":\"ليتر\",\"frName\":\"Litre\",\"abrev\":\"L\"}",
+    "category": "{\"__typename\":\"ProductCategoryType\",\"id\":\"6\",\"name\":\"مواد التنظيف\",\"frName\":\"Nettoyage\"}",
+    "frName": "Liquide Vaisselle Aloe Vera",
+    "sourceProductId": "096VhepaRZIsYe8AM3Gz",
+    "name": "سائل غسل الاواني بالألوفيرا",
+    "contentNumber": "1"
+  }
+]

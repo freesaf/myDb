@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zamma/precache-manifest.792fbf6c7e3ee7eee7a44f0004abdf2b.js"
+  "/zamma/precache-manifest.134ecf8f4b02245c430178ac29b0c4fe.js"
 );
 
 self.addEventListener('message', (event) => {
